@@ -1,0 +1,7 @@
+<svg id="monogram" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <circle id="Ellipse_8239" data-name="Ellipse 8239" cx="40" cy="40" r="40" fill="#639"/>
+  <g id="Group_190575" data-name="Group 190575" transform="translate(8.578 8.578)">
+    <path id="Path_180935" data-name="Path 180935" d="M12.15,35.931A31.037,31.037,0,0,1,3,14.2L34.166,45.081A32.456,32.456,0,0,1,12.15,35.931Z" transform="translate(-3 17.824)" fill="#fff"/>
+    <path id="Path_180936" data-name="Path 180936" d="M40.757,65.047,3.3,27.59A31.432,31.432,0,0,1,59.342,15.867l-4.289,3.717A26.4,26.4,0,0,0,33.895,8.719,26.006,26.006,0,0,0,9.59,25.874L42.473,58.757A25.922,25.922,0,0,0,59.057,40.171H45.332V34.452H65.347A31.542,31.542,0,0,1,40.757,65.047Z" transform="translate(-2.442 -3)" fill="#fff"/>
+  </g>
+</svg>

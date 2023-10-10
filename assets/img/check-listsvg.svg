@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32.117 28.117">
+  <g id="Group_190718" data-name="Group 190718" transform="translate(-210 -1382.883)">
+    <g id="Rectangle_151444" data-name="Rectangle 151444" transform="translate(210 1387)" fill="#fff" stroke="#e4a7ff" stroke-width="1">
+      <rect width="24" height="24" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" rx="3.5" fill="none"/>
+    </g>
+    <path id="tick-svgrepo-com" d="M2.75,14.35l8,8.4,16-18" transform="translate(213.25 1380.25)" fill="none" stroke="#ac31e1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>
