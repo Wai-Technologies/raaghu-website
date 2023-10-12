@@ -43,7 +43,7 @@
 
         <!--============= navigation bar section start ==========-->
 
-        <nav class="navbar fixed-top navbar-expand-lg main-menu" id="rds-nav">
+        <nav class="navbar fixed-top navbar-expand-lg main-menu p-0" id="rds-nav">
             <div class="container">
                 <a class="navbar-brand" href="./index.html">
                     <img src="assets/img/logo/raaghu-logo.png" class="img-fluid" width="40%">
@@ -59,10 +59,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
+                        <li class="nav-item login-li">
+                            <a class="nav-link" href="https://portal.raaghu.io/selectplans">
+                                Pricing Plans
+                            </a>
+                        </li>
                         <li class="nav-item login-li">
                             <a class="nav-link"
-                                href="https://raaghu-website-staging.netlify.app/raaghu-mfe-portal/_accordion">Components</a>
+                                href="./raaghu-mfe-portal/_accordion.html">Components</a>
                         </li>
                         <li class="nav-item login-li">
                             <a class="nav-link text-dark"
@@ -75,10 +79,10 @@
                             <a class="nav-link text-dark" href="Faq.html">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" role="button" class="btn btn-sm btn-outline-primary px-4">LOGIN</a>
+                            <a href="https://portal.raaghu.io/login" role="button" class="btn btn-sm btn-outline-primary px-4">LOGIN</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" role="button" class="btn btn-sm btn-primary text-white px-4">REGISTER</a>
+                            <a href="https://portal.raaghu.io/register" role="button" class="btn btn-sm btn-primary text-white px-4">REGISTER</a>
                         </li>
                     </ul>
                 </div>
@@ -156,10 +160,9 @@
                             </li>
                         </ul>
                         <div class="d-flex align-items-center gap-4 mobile-btn-rwo pb-5 ">
-                            <a href="./free-trial.html">
-                                <a href="#" class="btn btn-outline-primary btn-white btn-sm px-3 py-2 bg-white">CONTACT
+                                <a data-bs-toggle="modal" data-bs-target="#contactusModal" class="btn btn-outline-primary btn-white btn-sm px-3 py-2 bg-white">CONTACT
                                     US</a>
-                                <button class="btn btn-primary text-white btn-sm px-3 py-2">BUY NOW</button></a>
+                                <a href="https://portal.raaghu.io/selectplans" class="btn btn-primary text-white btn-sm px-3 py-2">BUY NOW</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-12 mobile-img">
@@ -1442,12 +1445,11 @@
                     </div>
                 </div>
                 <div class="gap-4 d-flex justify-content-center">
-                    <a href="#" class="btn btn-outline-primary btn-white btn-sm px-3 py-2 bg-white">
+                    <a data-bs-toggle="modal" data-bs-target="#contactusModal" class="btn btn-outline-primary btn-white btn-sm px-3 py-2 bg-white">
                         CONTACT US
                     </a>
-                    <button class="btn px-3 py-2 btn-sm btn-primary">
-                        BUY NOW
-                    </button>
+                    <a href="https://portal.raaghu.io/selectplans" class="btn btn-primary text-white btn-sm px-3 py-2">BUY NOW</a>
+
                 </div>
             </div>
         </section>
@@ -1459,12 +1461,10 @@
             <div class="pixel-perfect rounded-3 pe-5 py-4 ps-5 ms-3 text-white">
                 <div class="ps-5 ms-5">
                     <h6 class="f-18">
-                        Need raaghu react framework expertise in your team?
+                        Our Developers are proficient in React and ABP commercial
                     </h6>
-                    <p>
-                        We can provide a developer to work on your project along with you and your team. Our raaghu react developer </br>
-                        are proficient in React and ABP commercial.
-                    </p>
+                    <!-- <p>
+                        Our Developers are proficient in React and ABP commercial                    </p> -->
                 </div>
                 <form class="ps-5 ms-5">
                     <div class="pt-2 d-flex justify-content-start gap-2">
@@ -1473,16 +1473,16 @@
                             <input type="email" class="form-control" required placeholder="Email ID" aria-label="email id"
                                 aria-describedby="basic-addon1">
                         </div>
-                        <button class="btn px-3 btn-primary">
-                            <div class="d-flex align-items-center gap-2">
-                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        <a href="https://portal.raaghu.io/raaghuassistance" class="btn px-3 btn-primary">
+                            <div class="d-flex align-items-center gap-2 px-4 btn-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-person" viewBox="0 0 16 16">
                                     <path
                                         d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
-                                </svg> -->
-                                <span>GET RAAGHU ASSISTANCE</span>
+                                </svg>
+                                <span> GET RAAGHU ASSISTANCE</span>
                             </div>
-                        </button>
+                        </a>
                     </div>
                 </form>
             </div>
@@ -1723,10 +1723,10 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-12 bg-dark">
                             <div class="mt-5">
-                                <img src="assets/img/revamp-home-page/home/raaghu-logo-white.png"
+                                <img src="assets/img/raaghu-logo-white.png"
                                     class="img-fluid w-25 pl-2">
 
-                                <img src="assets/img/revamp-home-page/home/contactus_banner.png" class="img-fluid">
+                                <img src="assets/img/contactus_banner.png" class="img-fluid">
                             </div>
                         </div>
 
@@ -1773,7 +1773,7 @@
                                             <label class="form-check-label" for="exampleCheck1">I agree to the <a
                                                     href="#"> terms & privacy policy </a></label>
                                         </div>
-                                        <button type="submit" class="btn btn-primary btn-sm btn-block">Submit</button>
+                                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn btn-primary btn-sm btn-block">Submit</button>
                                     </form>
                                 </div>
                             </div>

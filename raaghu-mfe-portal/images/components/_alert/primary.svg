@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_173129" data-name="Group 173129" transform="translate(-340 -942)">
+    <circle id="Ellipse_8246" data-name="Ellipse 8246" cx="20" cy="20" r="20" transform="translate(340 942)" fill="#1e8ded"/>
+    <g id="Group_172991" data-name="Group 172991" transform="translate(-124.497 706)">
+      <path id="Path_128649" data-name="Path 128649" d="M0,0H21V21H0Z" transform="translate(474 245.5)" fill="rgba(0,0,0,0)" opacity="0"/>
+      <g id="streamline-icon-alert-circle_48x48" data-name="streamline-icon-alert-circle@48x48" transform="translate(475.312 246.696)">
+        <path id="Path_129756" data-name="Path 129756" d="M23.482,33a.232.232,0,1,0,0,.465" transform="translate(-14.332 -28.059)" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <path id="Path_129757" data-name="Path 129757" d="M24,33a.232.232,0,1,1,0,.465" transform="translate(-14.775 -28.059)" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <path id="Path_129758" data-name="Path 129758" d="M24,10.5v5.114" transform="translate(-14.812 -1.426)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+        <path id="Path_129759" data-name="Path 129759" d="M10.688,1.5A9.188,9.188,0,1,1,1.5,10.688,9.188,9.188,0,0,1,10.688,1.5Z" transform="translate(-1.5 -1.5)" fill="none" stroke="#fff" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

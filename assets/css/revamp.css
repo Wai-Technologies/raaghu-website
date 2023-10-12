@@ -699,37 +699,6 @@ img.emp-img {
 }
 
 
-/* ================== faq page css ==============*/
-.faq-accordiean .accordion-button::before {
-    content: '\002B';
-    color: #590DA6;
-    margin-left: 5px;
-    background-color: rgba(89, 13, 166, 0.1);
-    border-radius: 3px;
-    padding: 0px 5px;
-    font-weight: 100;
-}
-.faq-accordiean .accordion-button::after{
-    background-image: none;
-}
-.faq-accordiean .accordion-button:not(.collapsed)::before {
-    content: "\2212";
-}
-.faq-accordiean .accordion-button:not(.collapsed) {
-    color: #000;
-}
-@media (prefers-reduced-motion: reduce) {
-    .collapsing {
-        transition-property: height, visibility;
-        transition-duration: .35s;
-    }
-}
-@media (prefers-reduced-motion: reduce){
-.fade {
-    transition: opacity .15s linear;
-}
-}
-
 /* ======================= terms and services page css ================== */
 .terms-service .nav-link{
     font-size: 14px;

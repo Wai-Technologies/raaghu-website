@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="715" viewBox="0 0 1340 715">
+  <g id="Light_AuditLogs" transform="translate(-480 -367)">
+    <rect id="Rectangle_151690" data-name="Rectangle 151690" width="1340" height="715" transform="translate(480 367)" fill="#fff"/>
+    <g id="Group_195206" data-name="Group 195206" transform="translate(460 367)">
+      <g id="Tabs" transform="translate(-6386 -1207)">
+        <path id="Path_112999" data-name="Path 112999" d="M.235,0h1320" transform="translate(6425.765 1303.8)" fill="none" stroke="#c7c7c7" stroke-width="0.5"/>
+        <g id="Tab_Unselected" data-name="Tab Unselected" transform="translate(6590 1267)">
+          <text id="Change_Logs" data-name="Change Logs" transform="translate(72 17)" fill="#495057" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-52" y="0">Change Logs</tspan></text>
+        </g>
+        <g id="Tab_Selected" data-name="Tab Selected" transform="translate(6426 1267)">
+          <rect id="Rectangle_147917" data-name="Rectangle 147917" width="160" height="2" transform="translate(0 35)" fill="#7e2eef"/>
+          <text id="Operation_Logs" data-name="Operation Logs" transform="translate(80 17)" fill="#7e2eef" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="-60" y="0">Operation Logs</tspan></text>
+        </g>
+      </g>
+      <g id="Group_191988" data-name="Group 191988" transform="translate(-548 -357)">
+        <g id="Date_Range" data-name="Date Range" transform="translate(812 484)">
+          <g id="Rectangle_38410" data-name="Rectangle 38410" fill="#fff" stroke="#ced4da" stroke-width="1">
+            <rect width="200" height="36" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="199" height="35" rx="3.5" fill="none"/>
+          </g>
+          <text id="End_Date" data-name="End Date" transform="translate(12 23)" fill="#bebebe" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">End Date</tspan></text>
+          <g id="calendar" transform="translate(167.5 7.501)">
+            <line id="Line_88887" data-name="Line 88887" x2="19.873" transform="translate(0.521 9.67)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <path id="Path_171183" data-name="Path 171183" d="M2.038,3.577A1.538,1.538,0,0,0,.5,5.115V18.961A1.538,1.538,0,0,0,2.038,20.5H18.962A1.538,1.538,0,0,0,20.5,18.961V5.115a1.538,1.538,0,0,0-1.538-1.538H15.885" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <line id="Line_88888" data-name="Line 88888" y2="5.128" transform="translate(5.115 1.013)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <line id="Line_88889" data-name="Line 88889" y2="6.154" transform="translate(15.885 0.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <line id="Line_88890" data-name="Line 88890" x2="7.693" transform="translate(5.115 3.577)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Date_Range-2" data-name="Date Range" transform="translate(1036 484)">
+          <g id="Rectangle_38410-2" data-name="Rectangle 38410" fill="#fff" stroke="#ced4da" stroke-width="1">
+            <rect width="200" height="36" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="199" height="35" rx="3.5" fill="none"/>
+          </g>
+          <text id="User" transform="translate(12 23)" fill="#bebebe" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">User</tspan></text>
+        </g>
+        <g id="Date_Range-3" data-name="Date Range" transform="translate(588 484)">
+          <g id="Rectangle_38410-3" data-name="Rectangle 38410" fill="#fff" stroke="#ced4da" stroke-width="1">
+            <rect width="200" height="36" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="199" height="35" rx="3.5" fill="none"/>
+          </g>
+          <text id="Start_Date" data-name="Start Date" transform="translate(12 23)" fill="#bebebe" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Start Date</tspan></text>
+          <g id="calendar-2" data-name="calendar" transform="translate(167.5 7.501)">
+            <line id="Line_88887-2" data-name="Line 88887" x2="19.873" transform="translate(0.521 9.67)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <path id="Path_171183-2" data-name="Path 171183" d="M2.038,3.577A1.538,1.538,0,0,0,.5,5.115V18.961A1.538,1.538,0,0,0,2.038,20.5H18.962A1.538,1.538,0,0,0,20.5,18.961V5.115a1.538,1.538,0,0,0-1.538-1.538H15.885" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <line id="Line_88888-2" data-name="Line 88888" y2="5.128" transform="translate(5.115 1.013)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <line id="Line_88889-2" data-name="Line 88889" y2="6.154" transform="translate(15.885 0.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <line id="Line_88890-2" data-name="Line 88890" x2="7.693" transform="translate(5.115 3.577)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_191995" data-name="Group 191995">
+        <text id="Advanced_Filters" data-name="Advanced Filters" transform="translate(744 151)" fill="#34384f" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Advanced Filters</tspan></text>
+        <g id="toggle" transform="translate(712 136)" fill="none" stroke="#797a7a" stroke-width="1">
+          <rect width="20" height="20" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19" height="19" rx="1.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Export_To_Excel" data-name="Export To Excel" transform="translate(1198 40)">
+        <g id="Rectangle_38410-4" data-name="Rectangle 38410" fill="none" stroke="#7e2eef" stroke-width="1">
+          <rect width="162" height="36" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="161" height="35" rx="3.5" fill="none"/>
+        </g>
+        <g id="Export_To_Excel-2" data-name="Export To Excel" transform="translate(-1354 -153)">
+          <text id="Export_To_Excel-3" data-name="Export To Excel" transform="translate(1448 175)" fill="#7e2eef" font-size="12" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-52" y="0">EXPORT TO EXCEL</tspan></text>
+          <g id="export-data" transform="translate(1369.5 162.5)">
+            <path id="Path_171184" data-name="Path 171184" d="M14.5,15.27a1.252,1.252,0,0,1-1.272,1.23H1.772A1.252,1.252,0,0,1,.5,15.27V1.73A1.252,1.252,0,0,1,1.772.5H8.136L14.5,6.654v8.615Z" fill="none" stroke="#7e2eef" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <path id="Path_171185" data-name="Path 171185" d="M5.828,15.419a4.36,4.36,0,0,1,.849-3.282c1.234-1.473,3.379-1.593,4.242-1.641a7.778,7.778,0,0,1,.849,0" transform="translate(-0.914 -1.997)" fill="none" stroke="#7e2eef" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <path id="Path_171186" data-name="Path 171186" d="M10.964,7.936l2.473,2.036-2.473,2.066" transform="translate(-1.807 -1.487)" fill="none" stroke="#7e2eef" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <line id="Line_88891" data-name="Line 88891" x2="3.309" transform="translate(2.497 2.9)" fill="none" stroke="#7e2eef" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="Table" transform="translate(-310 -52)">
+        <g id="Audit_logs_data" data-name="Audit logs data" transform="translate(350 595)">
+          <rect id="Rectangle_35359" data-name="Rectangle 35359" width="1320" height="60" fill="#fff"/>
+          <path id="Path_129016" data-name="Path 129016" d="M368,801.212H1688" transform="translate(-368 -741.211)" fill="none" stroke="#dee2e6" stroke-width="1"/>
+          <text id="Brand" transform="translate(20 36)" fill="#212529" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">admin</tspan></text>
+          <text id="Brand-2" data-name="Brand" transform="translate(148 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">CommonLookupAppService</tspan></text>
+          <text id="Brand-3" data-name="Brand" transform="translate(1022 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">2022-06-22 16:34:40	</tspan></text>
+          <text id="Brand-4" data-name="Brand" transform="translate(438 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">FindUsers</tspan></text>
+          <text id="Brand-5" data-name="Brand" transform="translate(724 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">1351ms</tspan></text>
+          <text id="Brand-6" data-name="Brand" transform="translate(855 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">103.151.184.6</tspan></text>
+          <g id="Action" transform="translate(1268 14)">
+            <g id="Action-2" data-name="Action">
+              <circle id="Ellipse_7" data-name="Ellipse 7" cx="16" cy="16" r="16" fill="none"/>
+              <g id="dot" transform="translate(14.222 7.111)">
+                <circle id="Ellipse_8101" data-name="Ellipse 8101" cx="1.778" cy="1.778" r="1.778" transform="translate(0 0)" fill="#6c757d"/>
+                <circle id="Ellipse_8102" data-name="Ellipse 8102" cx="1.778" cy="1.778" r="1.778" transform="translate(0 7.111)" fill="#6c757d"/>
+                <circle id="Ellipse_8103" data-name="Ellipse 8103" cx="1.778" cy="1.778" r="1.778" transform="translate(0 14.222)" fill="#6c757d"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Audit_logs_data-2" data-name="Audit logs data" transform="translate(350 535)">
+          <rect id="Rectangle_35359-2" data-name="Rectangle 35359" width="1320" height="60" fill="#fff"/>
+          <path id="Path_129016-2" data-name="Path 129016" d="M368,801.212H1688" transform="translate(-368 -741.211)" fill="none" stroke="#dee2e6" stroke-width="1"/>
+          <text id="Brand-7" data-name="Brand" transform="translate(20 36)" fill="#212529" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">admin</tspan></text>
+          <text id="Brand-8" data-name="Brand" transform="translate(148 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">LanguageAppService</tspan></text>
+          <text id="Brand-9" data-name="Brand" transform="translate(1022 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">2022-06-22 16:34:40</tspan></text>
+          <text id="Brand-10" data-name="Brand" transform="translate(438 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">GetLanguages</tspan></text>
+          <text id="Brand-11" data-name="Brand" transform="translate(724 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">1351ms</tspan></text>
+          <text id="Brand-12" data-name="Brand" transform="translate(855 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">103.151.184.6</tspan></text>
+          <g id="Action-3" data-name="Action" transform="translate(1268 14)">
+            <g id="Action-4" data-name="Action">
+              <circle id="Ellipse_7-2" data-name="Ellipse 7" cx="16" cy="16" r="16" fill="none"/>
+              <g id="dot-2" data-name="dot" transform="translate(14.222 7.111)">
+                <circle id="Ellipse_8101-2" data-name="Ellipse 8101" cx="1.778" cy="1.778" r="1.778" transform="translate(0 0)" fill="#6c757d"/>
+                <circle id="Ellipse_8102-2" data-name="Ellipse 8102" cx="1.778" cy="1.778" r="1.778" transform="translate(0 7.111)" fill="#6c757d"/>
+                <circle id="Ellipse_8103-2" data-name="Ellipse 8103" cx="1.778" cy="1.778" r="1.778" transform="translate(0 14.222)" fill="#6c757d"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Audit_logs_data-3" data-name="Audit logs data" transform="translate(350 475)">
+          <rect id="Rectangle_35359-3" data-name="Rectangle 35359" width="1320" height="60" fill="#fff"/>
+          <path id="Path_129016-3" data-name="Path 129016" d="M368,801.212H1688" transform="translate(-368 -741.211)" fill="none" stroke="#dee2e6" stroke-width="1"/>
+          <text id="Brand-13" data-name="Brand" transform="translate(20 36)" fill="#212529" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">admin</tspan></text>
+          <text id="Brand-14" data-name="Brand" transform="translate(148 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">UserDelegationAppService</tspan></text>
+          <text id="Brand-15" data-name="Brand" transform="translate(1022 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">2022-06-22 16:34:40</tspan></text>
+          <text id="Brand-16" data-name="Brand" transform="translate(438 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">GetActiveUserDelegations</tspan></text>
+          <text id="Brand-17" data-name="Brand" transform="translate(724 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">1351ms</tspan></text>
+          <text id="Brand-18" data-name="Brand" transform="translate(855 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">103.151.184.6</tspan></text>
+          <g id="Action-5" data-name="Action" transform="translate(1268 14)">
+            <g id="Action-6" data-name="Action">
+              <circle id="Ellipse_7-3" data-name="Ellipse 7" cx="16" cy="16" r="16" fill="none"/>
+              <g id="dot-3" data-name="dot" transform="translate(14.222 7.111)">
+                <circle id="Ellipse_8101-3" data-name="Ellipse 8101" cx="1.778" cy="1.778" r="1.778" transform="translate(0 0)" fill="#6c757d"/>
+                <circle id="Ellipse_8102-3" data-name="Ellipse 8102" cx="1.778" cy="1.778" r="1.778" transform="translate(0 7.111)" fill="#6c757d"/>
+                <circle id="Ellipse_8103-3" data-name="Ellipse 8103" cx="1.778" cy="1.778" r="1.778" transform="translate(0 14.222)" fill="#6c757d"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Audit_logs_data-4" data-name="Audit logs data" transform="translate(350 415)">
+          <rect id="Rectangle_35359-4" data-name="Rectangle 35359" width="1320" height="60" fill="#fff"/>
+          <path id="Path_129016-4" data-name="Path 129016" d="M368,801.212H1688" transform="translate(-368 -741.211)" fill="none" stroke="#dee2e6" stroke-width="1"/>
+          <text id="Brand-19" data-name="Brand" transform="translate(20 36)" fill="#212529" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">admin</tspan></text>
+          <text id="Brand-20" data-name="Brand" transform="translate(148 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">UserDelegationAppService</tspan></text>
+          <text id="Brand-21" data-name="Brand" transform="translate(1022 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">2022-06-22 16:34:40</tspan></text>
+          <text id="Brand-22" data-name="Brand" transform="translate(438 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">GetActiveUserDelegations</tspan></text>
+          <text id="Brand-23" data-name="Brand" transform="translate(724 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">1351ms</tspan></text>
+          <text id="Brand-24" data-name="Brand" transform="translate(855 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">103.151.184.6</tspan></text>
+          <g id="Action-7" data-name="Action" transform="translate(1268 14)">
+            <g id="Action-8" data-name="Action">
+              <circle id="Ellipse_7-4" data-name="Ellipse 7" cx="16" cy="16" r="16" fill="none"/>
+              <g id="dot-4" data-name="dot" transform="translate(14.222 7.111)">
+                <circle id="Ellipse_8101-4" data-name="Ellipse 8101" cx="1.778" cy="1.778" r="1.778" transform="translate(0 0)" fill="#6c757d"/>
+                <circle id="Ellipse_8102-4" data-name="Ellipse 8102" cx="1.778" cy="1.778" r="1.778" transform="translate(0 7.111)" fill="#6c757d"/>
+                <circle id="Ellipse_8103-4" data-name="Ellipse 8103" cx="1.778" cy="1.778" r="1.778" transform="translate(0 14.222)" fill="#6c757d"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Audit_logs_data-5" data-name="Audit logs data" transform="translate(350 355)">
+          <rect id="Rectangle_35359-5" data-name="Rectangle 35359" width="1320" height="60" fill="#fff"/>
+          <path id="Path_129016-5" data-name="Path 129016" d="M368,801.212H1688" transform="translate(-368 -741.211)" fill="none" stroke="#dee2e6" stroke-width="1"/>
+          <text id="Brand-25" data-name="Brand" transform="translate(20 36)" fill="#212529" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">admin</tspan></text>
+          <text id="Brand-26" data-name="Brand" transform="translate(148 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">LanguageAppService</tspan></text>
+          <text id="Brand-27" data-name="Brand" transform="translate(1022 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">2022-06-22 16:34:40</tspan></text>
+          <text id="Brand-28" data-name="Brand" transform="translate(438 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">GetLanguages</tspan></text>
+          <text id="Brand-29" data-name="Brand" transform="translate(724 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">1351ms</tspan></text>
+          <text id="Brand-30" data-name="Brand" transform="translate(855 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">103.151.184.6</tspan></text>
+          <g id="Action-9" data-name="Action" transform="translate(1268 14)">
+            <g id="Action-10" data-name="Action">
+              <circle id="Ellipse_7-5" data-name="Ellipse 7" cx="16" cy="16" r="16" fill="none"/>
+              <g id="dot-5" data-name="dot" transform="translate(14.222 7.111)">
+                <circle id="Ellipse_8101-5" data-name="Ellipse 8101" cx="1.778" cy="1.778" r="1.778" transform="translate(0 0)" fill="#6c757d"/>
+                <circle id="Ellipse_8102-5" data-name="Ellipse 8102" cx="1.778" cy="1.778" r="1.778" transform="translate(0 7.111)" fill="#6c757d"/>
+                <circle id="Ellipse_8103-5" data-name="Ellipse 8103" cx="1.778" cy="1.778" r="1.778" transform="translate(0 14.222)" fill="#6c757d"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Audit_logs_data-6" data-name="Audit logs data" transform="translate(350 295)">
+          <rect id="Rectangle_35359-6" data-name="Rectangle 35359" width="1320" height="60" fill="#fff"/>
+          <path id="Path_129016-6" data-name="Path 129016" d="M368,801.212H1688" transform="translate(-368 -741.211)" fill="none" stroke="#dee2e6" stroke-width="1"/>
+          <text id="Brand-31" data-name="Brand" transform="translate(20 36)" fill="#212529" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">admin</tspan></text>
+          <text id="Brand-32" data-name="Brand" transform="translate(148 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">UserDelegationAppService</tspan></text>
+          <text id="Brand-33" data-name="Brand" transform="translate(1022 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">2022-06-22 16:34:40</tspan></text>
+          <text id="Brand-34" data-name="Brand" transform="translate(438 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">GetActiveUserDelegations</tspan></text>
+          <text id="Brand-35" data-name="Brand" transform="translate(724 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">1351ms</tspan></text>
+          <text id="Brand-36" data-name="Brand" transform="translate(855 36)" fill="#6c757d" font-size="16" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">103.151.184.6</tspan></text>
+          <g id="Action-11" data-name="Action" transform="translate(1268 14)">
+            <g id="Action-12" data-name="Action">
+              <circle id="Ellipse_7-6" data-name="Ellipse 7" cx="16" cy="16" r="16" fill="none"/>
+              <g id="dot-6" data-name="dot" transform="translate(14.222 7.111)">
+                <circle id="Ellipse_8101-6" data-name="Ellipse 8101" cx="1.778" cy="1.778" r="1.778" transform="translate(0 0)" fill="#6c757d"/>
+                <circle id="Ellipse_8102-6" data-name="Ellipse 8102" cx="1.778" cy="1.778" r="1.778" transform="translate(0 7.111)" fill="#6c757d"/>
+                <circle id="Ellipse_8103-6" data-name="Ellipse 8103" cx="1.778" cy="1.778" r="1.778" transform="translate(0 14.222)" fill="#6c757d"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Data_table_header" data-name="Data table header">
+          <g id="Tenant" transform="translate(-95 -12)">
+            <g id="Group_152274" data-name="Group 152274" transform="translate(544.333 266.667)">
+              <path id="Path_128717" data-name="Path 128717" d="M10.509,2.25H0v1.5H10.509V6L14,3,10.509,0Z" transform="translate(22.666 3.333) rotate(90)" fill="#323232"/>
+              <path id="Path_128717-2" data-name="Path 128717" d="M10.509,3.75H0V2.25H10.509V0L14,3,10.509,6Z" transform="translate(6.667 17.333) rotate(-90)" fill="#323232"/>
+            </g>
+            <text id="Brand-37" data-name="Brand" transform="translate(465 282)" fill="#323232" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">User Name</tspan></text>
+          </g>
+          <g id="Edition" transform="translate(609 -12)">
+            <g id="Group_152274-2" data-name="Group 152274" transform="translate(527.333 266.667)">
+              <path id="Path_128717-3" data-name="Path 128717" d="M10.509,2.25H0v1.5H10.509V6L14,3,10.509,0Z" transform="translate(22.666 3.333) rotate(90)" fill="#323232"/>
+              <path id="Path_128717-4" data-name="Path 128717" d="M10.509,3.75H0V2.25H10.509V0L14,3,10.509,6Z" transform="translate(6.667 17.333) rotate(-90)" fill="#323232"/>
+            </g>
+            <text id="Brand-38" data-name="Brand" transform="translate(465 282)" fill="#323232" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Duration</tspan></text>
+          </g>
+          <text id="Action-13" data-name="Action" transform="translate(1610 270)" fill="#323232" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Action</tspan></text>
+          <g id="Tenant-2" data-name="Tenant" transform="translate(33 -12)">
+            <g id="Group_152274-3" data-name="Group 152274" transform="translate(517.333 266.667)">
+              <path id="Path_128717-5" data-name="Path 128717" d="M10.509,2.25H0v1.5H10.509V6L14,3,10.509,0Z" transform="translate(22.666 3.333) rotate(90)" fill="#323232"/>
+              <path id="Path_128717-6" data-name="Path 128717" d="M10.509,3.75H0V2.25H10.509V0L14,3,10.509,6Z" transform="translate(6.667 17.333) rotate(-90)" fill="#323232"/>
+            </g>
+            <text id="Brand-39" data-name="Brand" transform="translate(465 282)" fill="#323232" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Service</tspan></text>
+          </g>
+          <g id="Tenant-3" data-name="Tenant" transform="translate(323 -12)">
+            <g id="Group_152274-4" data-name="Group 152274" transform="translate(511.333 266.667)">
+              <path id="Path_128717-7" data-name="Path 128717" d="M10.509,2.25H0v1.5H10.509V6L14,3,10.509,0Z" transform="translate(22.666 3.333) rotate(90)" fill="#323232"/>
+              <path id="Path_128717-8" data-name="Path 128717" d="M10.509,3.75H0V2.25H10.509V0L14,3,10.509,6Z" transform="translate(6.667 17.333) rotate(-90)" fill="#323232"/>
+            </g>
+            <text id="Brand-40" data-name="Brand" transform="translate(465 282)" fill="#323232" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Action</tspan></text>
+          </g>
+          <path id="Path_129255" data-name="Path 129255" d="M368,801.212H1688" transform="translate(-18 -506.212)" fill="none" stroke="#dee2e6" stroke-width="1"/>
+          <g id="Status" transform="translate(740 -12)">
+            <g id="Group_152274-5" data-name="Group 152274" transform="translate(539.333 266.667)">
+              <path id="Path_128717-9" data-name="Path 128717" d="M10.509,2.25H0v1.5H10.509V6L14,3,10.509,0Z" transform="translate(22.666 3.333) rotate(90)" fill="#323232"/>
+              <path id="Path_128717-10" data-name="Path 128717" d="M10.509,3.75H0V2.25H10.509V0L14,3,10.509,6Z" transform="translate(6.667 17.333) rotate(-90)" fill="#323232"/>
+            </g>
+            <text id="Brand-41" data-name="Brand" transform="translate(465 282)" fill="#323232" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">IP Address</tspan></text>
+          </g>
+          <g id="Status-2" data-name="Status" transform="translate(907 -12)">
+            <g id="Group_152274-6" data-name="Group 152274" transform="translate(501.333 266.667)">
+              <path id="Path_128717-11" data-name="Path 128717" d="M10.509,2.25H0v1.5H10.509V6L14,3,10.509,0Z" transform="translate(22.666 3.333) rotate(90)" fill="#323232"/>
+              <path id="Path_128717-12" data-name="Path 128717" d="M10.509,3.75H0V2.25H10.509V0L14,3,10.509,6Z" transform="translate(6.667 17.333) rotate(-90)" fill="#323232"/>
+            </g>
+            <text id="Brand-42" data-name="Brand" transform="translate(465 282)" fill="#323232" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Time</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="Pagination" transform="translate(1122 643)">
+        <g id="Group_152278" data-name="Group 152278" transform="translate(-11 1.668)">
+          <g id="Group_151128" data-name="Group 151128" transform="translate(165.765 8.205)">
+            <g id="Group_173458" data-name="Group 173458" transform="translate(8.235 -1.295) rotate(90)">
+              <path id="Path_130592" data-name="Path 130592" d="M0,8,7.569.192a.579.579,0,0,1,.862,0L16,8" transform="translate(-0.578 1)" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+              <path id="Path_130593" data-name="Path 130593" d="M0,0,7.569,7.808a.579.579,0,0,0,.862,0L16,0" transform="translate(-0.578 155)" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            </g>
+          </g>
+          <text id="Brand-43" data-name="Brand" transform="translate(74 19.332)" fill="#797a7a" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="-3" y="0">2</tspan></text>
+          <text id="Brand-44" data-name="Brand" transform="translate(105 19.332)" fill="#797a7a" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="-3" y="0">3</tspan></text>
+          <text id="Brand-45" data-name="Brand" transform="translate(137 19.332)" fill="#797a7a" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="-3" y="0">4</tspan></text>
+          <g id="Group_152249" data-name="Group 152249" transform="translate(25.709 0)">
+            <circle id="Ellipse_28" data-name="Ellipse 28" cx="14" cy="14" r="14" transform="translate(5.291 0.332)" fill="#dde4f7"/>
+            <text id="Brand-46" data-name="Brand" transform="translate(19.291 19.332)" fill="#797a7a" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="-1" y="0">1</tspan></text>
+          </g>
+        </g>
+        <g id="number_dropdown" data-name="number dropdown" transform="translate(178)">
+          <g id="textbox">
+            <g id="Rectangle_38714" data-name="Rectangle 38714" fill="none" stroke="#9e9e9e" stroke-width="0.5">
+              <rect width="60" height="32" rx="4" stroke="none"/>
+              <rect x="0.25" y="0.25" width="59.5" height="31.5" rx="3.75" fill="none"/>
+            </g>
+            <text id="Brand-47" data-name="Brand" transform="translate(8 21.002)" fill="#797a7a" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">10</tspan></text>
+            <path id="Path_130595" data-name="Path 130595" d="M0,8,7.569.192a.579.579,0,0,1,.862,0L16,8" transform="translate(52 20) rotate(180)" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

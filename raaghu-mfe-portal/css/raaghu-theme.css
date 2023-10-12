@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+/*---------------------------------------
+Body
+---------------------------------------*/
+    body {
+    	font-size: 14px;
+    	font-family: Poppins;
+    	color: #15354E;
+    }
+/*---------------------------------------
+Row
+---------------------------------------*/
+    .row {
+        width: 100%;
+    }
+/*---------------------------------------
+Heights
+---------------------------------------*/
+    .h-100 {
+        height: 100vh!important;
+    } 
+/*---------------------------------------
+background
+---------------------------------------*/
+    .bg-dark {
+        background-color: #000!important;
+    }
+/*---------------------------------------
+cursor-pointer
+---------------------------------------*/
+    .cursor-pointer {
+    	cursor: pointer;
+    }
+/*---------------------------------------
+Borders
+---------------------------------------*/
+    .border-right {
+        border-right: 1px solid #f1f1f1;
+    }
+
+/*---------------------------------------
+vertical-center
+---------------------------------------*/
+    .v-center {
+        height: 100%;
+        align-items: center;
+        display: flex;
+        width: auto;
+    }
+    .v-center {
+        height: 100%;
+        align-items: center;
+        display: flex;
+        width: auto; 
+    }
+/*---------------------------------------
+custom scrollbar
+---------------------------------------*/
+
+    /* width */
+    ::-webkit-scrollbar {
+      width: 7px;
+      height: 4px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      border-radius: 10px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #ccc; 
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(45deg, #500DD1, #0796E3); 
+    }
+
+/*---------------------------------------
+ Alignments
+---------------------------------------*/
+
+    .justify-right {
+        justify-content: right;
+    }
+    .-webkit-center {
+        text-align: -webkit-center;
+    }
+    .pull-right{
+        float: right;
+    }
+    .text-right {
+        text-align: right;
+    }
+
+/*=========================================================================================================
+        CODE SECTION
+=========================================================================================================*/
+    blockquote {
+        color: #bfc4ff;
+    }
+    .rds-code {
+        display: block; 
+        overflow-x: auto; 
+        padding: 0.5em;
+        color: #fff;
+    } 
+    .rds-attribute {
+        color:#ffce45;
+    }
+    .rds-class {
+        color:#ff703e;
+    }
+    .rds-sign {
+        color:#66cc66;
+    }
+    .rds-tag {
+        color:#FFFFFF;
+    }
+/*---------------------------------------
+note-light
+---------------------------------------*/
+/*.note {
+    padding: 10px;
+    border-left: 6px solid;
+    border-radius: 5px;
+}
+.note-light {
+    background-color: #fff5f1;
+    border-color: #fd5c1c;
+}*/
+/*---------------------------------------
+hover-shadow
+---------------------------------------*/
+
+.card.hover-shadow, .hover-shadow {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.hover-shadow:hover {
+    box-shadow: 0 8px 17px 0 rgb(0 0 0 / 7%), 0 6px 20px 0 rgb(0 0 0 / 7%);
+}
+

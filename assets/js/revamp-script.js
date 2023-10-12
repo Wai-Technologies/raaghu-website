@@ -57,11 +57,11 @@ const counterAnim = (qSelector, start = 0, end, duration = 1000) => {
 //#endregion - end of - number counter animation
 
 document.addEventListener("scroll", () => {
-    counterAnim("#count1", 0, 300, 2000);
-    counterAnim("#count2", 0, 50, 2000);
-    counterAnim("#count3", 0, 20, 2000);
-    counterAnim("#count4", 0, 10, 2000);
-    // counterAnim("#count5", 10, 4, 2500);
+    counterAnim("#count1", 0, 82, 2000);
+    counterAnim("#count2", 0, 17, 2000);
+    counterAnim("#count3", 0, 4, 2000);
+    counterAnim("#count4", 0, 47, 2000);
+    counterAnim("#count5", 10, 37, 2000);
 });
 
 

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-icons.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/raaghu-theme.css">
+
+      <link href="https://{{cdn}}/prismjs@v1.x/themes/prism.css" rel="stylesheet" />
+      <link rel="stylesheet" type="text/css" href="css/code-editor.css">
+      <title> Buttons | Components </title>
+    
+
+    </head>
+   <body class="d-flex flex-column">
+      <!--     <nav class="navbar navbar-light bg-light">
+         <div class="container-fluid">
+           <a class="navbar-brand" href="#">
+             <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+             Bootstrap
+           </a>
+         </div>
+         </nav> -->
+    	<main class="d-flex flex-column">
+	        <nav class="navbar navbar-expand-lg sticky-top bg-white">
+	            <div class="container-fluid">
+
+	               <div class="row">
+	                  <div class="col-md-2">
+	                        <a class="navbar-brand" href="../index.html" target="_blank">
+	                           <img src="images/logo/Raaghu-logo-mfe-black.png" alt="" width="80" height="auto" class="d-inline-block align-text-top">
+	                        </a>
+	                  </div>
+	                  <div class="col-md-7">
+	                        <div class="collapse navbar-collapse  pt-3" id="navbarTogglerDemo02">
+	                           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	                              <li class="nav-item">
+	                                 <a class="nav-link active" aria-current="page" href="#">Brand</a>
+	                              </li>
+	                              <li class="nav-item">
+	                                 <a class="nav-link" href="index.html">Foundation</a>
+	                              </li>
+	                              <li class="nav-item">
+	                                 <a class="nav-link">Components</a>
+	                              </li>
+	                              <li class="nav-item">
+	                                 <a class="nav-link" href="index.html">Themes</a>
+	                              </li>
+	                              <li class="nav-item">
+	                                 <a class="nav-link">UI Kits</a>
+	                              </li>
+	                           </ul>
+	                        </div>
+	                  </div>
+	                  <div class="col-md-3 text-right">
+	                     <div class="pt-4 mx-4">
+	                        <div class="spinner-grow spinner-grow-sm text-danger" role="status">
+	                          <span class="visually-hidden">Loading...</span>
+	                        </div>
+	                        <a href="" class="h6 text-white pl-4">Coming Soon !</a>
+	                        <!-- <img src="images/logo/coming-soon.png" class="img-fluid"> -->
+	                     </div> 
+	                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+</svg>
+	                     </button>
+	                  </div>
+	               </div>
+	            </div>
+	        </nav>
+	        <div class="container mt-5 pt-5">
+	            <div class="row g-0">
+	               <div class="col-md-12 p-2 border">
+ 						
+	               		<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">button</span> <span class="na">type</span><span class="o">=</span><span class="s">"button"</span> <span class="na">class</span><span class="o">=</span><span class="s">"btn btn-primary position-relative"</span><span class="p">&gt;</span>
+  Inbox
+  <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"</span><span class="p">&gt;</span>
+    99+
+    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"visually-hidden"</span><span class="p">&gt;</span>unread messages<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span></code></pre></div>
+
+
+	               </div>
+	            </div>
+	        </div>
+    	</main>
+      <footer class="footer mt-auto py-3 bg-light">
+         <div class="container">
+            <span class=""> Copyrights @2023 | All rights reserved.  </span>
+         </div>
+      </footer>
+      <!-- Optional JavaScript; choose one of the two! -->
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <!-- <script src="js/chart.js"></script> -->
+     
+      	<script src="https://{{cdn}}/prismjs@v1.x/components/prism-core.min.js"></script>
+		<script src="https://{{cdn}}/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+
+
+
+ 
+   </body>
+</html>
+

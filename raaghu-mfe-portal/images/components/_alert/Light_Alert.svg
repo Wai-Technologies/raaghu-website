@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="680" viewBox="0 0 1340 680">
+  <g id="Light_Alert" transform="translate(-480 -367)">
+    <rect id="Rectangle_151690" data-name="Rectangle 151690" width="1340" height="680" transform="translate(480 367)" fill="#fff"/>
+    <g id="Warning" transform="translate(480 332)">
+      <g id="Warning-2" data-name="Warning" transform="translate(-169 510)">
+        <rect id="Rectangle_1082" data-name="Rectangle 1082" width="1260" height="56" rx="4" transform="translate(209 109)" fill="#f9edcc"/>
+        <text id="Typography" transform="translate(229 142)" fill="#886200" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">A simple warning alert—check it out!</tspan></text>
+        <g id="_close" transform="translate(1430.872 126.75)">
+          <line id="b" x1="16" y1="16" transform="translate(2.128 2.25)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <line id="c" x1="16" y2="16" transform="translate(2.128 2.25)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <text id="Warning-3" data-name="Warning" transform="translate(40 602)" fill="#212529" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">WARNING</tspan></text>
+    </g>
+    <g id="Success" transform="translate(480 354)">
+      <g id="Success-2" data-name="Success" transform="translate(-169 360)">
+        <rect id="Rectangle_1082-2" data-name="Rectangle 1082" width="1260" height="56" rx="4" transform="translate(209 109)" fill="#d5fcde"/>
+        <text id="Typography-2" data-name="Typography" transform="translate(229 142)" fill="#126024" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">A simple success alert—check it out!</tspan></text>
+        <g id="_close-2" data-name="_close" transform="translate(1430.872 126.75)">
+          <line id="b-2" data-name="b" x1="16" y1="16" transform="translate(2.128 2.25)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <line id="c-2" data-name="c" x1="16" y2="16" transform="translate(2.128 2.25)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <text id="Success-3" data-name="Success" transform="translate(40 452)" fill="#212529" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">SUCCESS</tspan></text>
+    </g>
+    <g id="Info" transform="translate(480 343)">
+      <g id="Info-2" data-name="Info" transform="translate(-169 243)">
+        <rect id="Rectangle_1082-3" data-name="Rectangle 1082" width="1260" height="56" rx="4" transform="translate(209 109)" fill="#d8fcfa"/>
+        <text id="Typography-3" data-name="Typography" transform="translate(261 142)" fill="#19605d" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">A simple info alert—check it out!</tspan></text>
+        <g id="_close-3" data-name="_close" transform="translate(1430.872 126.75)">
+          <line id="b-3" data-name="b" x1="16" y1="16" transform="translate(2.128 2.25)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <line id="c-3" data-name="c" x1="16" y2="16" transform="translate(2.128 2.25)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Group_191987" data-name="Group 191987" transform="translate(227 125)">
+          <path id="Path_171182" data-name="Path 171182" d="M9.74,11.865c1.479-1.035,2.134-1.09,2.44-.867,1.061.775-1.642,5.242-.351,6.375.556.488,1.653.182,2.629-.241" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <circle id="Ellipse_8357" data-name="Ellipse 8357" cx="10" cy="10" r="10" transform="translate(2 2)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <circle id="Ellipse_8358" data-name="Ellipse 8358" cx="0.769" cy="0.769" r="0.769" transform="translate(11.231 7.385)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+      <text id="Info-3" data-name="Info" transform="translate(40 335)" fill="#212529" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">INFO</tspan></text>
+    </g>
+    <g id="Danger" transform="translate(480 348)">
+      <g id="Danger-2" data-name="Danger" transform="translate(-169 110)">
+        <rect id="Rectangle_1082-4" data-name="Rectangle 1082" width="1260" height="56" rx="4" transform="translate(209 109)" fill="#fcd5d5"/>
+        <text id="Typography-4" data-name="Typography" transform="translate(229 142)" fill="#8f1c1c" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">A simple danger alert—check it out!</tspan></text>
+        <g id="_close-4" data-name="_close" transform="translate(1430.872 126.75)">
+          <line id="b-4" data-name="b" x1="16" y1="16" transform="translate(2.128 2.25)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <line id="c-4" data-name="c" x1="16" y2="16" transform="translate(2.128 2.25)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <text id="Danger-3" data-name="Danger" transform="translate(40 202)" fill="#212529" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">DANGER</tspan></text>
+    </g>
+    <g id="Default" transform="translate(480 362)">
+      <g id="Default-2" data-name="Default" transform="translate(-169 -32)">
+        <rect id="Rectangle_1082-5" data-name="Rectangle 1082" width="1260" height="56" rx="4" transform="translate(209 109)" fill="#e5d5fc"/>
+        <text id="Typography-5" data-name="Typography" transform="translate(229 142)" fill="#4c1c8f" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">A simple primary alert—check it out!</tspan></text>
+        <g id="_close-5" data-name="_close" transform="translate(1430.872 126.75)">
+          <line id="b-5" data-name="b" x1="16" y1="16" transform="translate(2.128 2.25)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <line id="c-5" data-name="c" x1="16" y2="16" transform="translate(2.128 2.25)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <text id="Default-3" data-name="Default" transform="translate(40 60)" fill="#212529" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">DEFAULT</tspan></text>
+    </g>
+  </g>
+</svg>
