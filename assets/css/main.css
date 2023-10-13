@@ -632,9 +632,8 @@ span.banner-gradient.text {
 
 img.emp-img {
     border-radius: 80px;
-    width: 60px;
-    max-width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     padding: 3px;
     border: 1px dotted black;
 }
@@ -871,9 +870,9 @@ img.choose-img {
     padding-right: 35px !important;
 }
 
-.plus::after {
+/* .plus::after {
     content: "+";
-}
+} */
 
 .plus-x::after {
     content: "X";
@@ -891,7 +890,21 @@ img.choose-img {
     border-right: 2px solid #9829a091;
 }
 
-
+.card-1 {
+    width: 20%;
+}
+.card-2 {
+    width: 20%;
+}
+.card-3 {
+    width: 20%;
+}
+.card-4 {
+    width: 20%;
+}
+.card-5 {
+    width: 20%;
+}
 /* ================ everything you need for great ui css ===============*/
 .tab-img {
     width: 100%;
@@ -1959,6 +1972,49 @@ p.link-name {
         body {
             zoom: 2.5;
         }
+    }
+    
+    @media only screen and (max-width: 768px){
+        .video-wrapper .container.pt-5 {
+            padding-top: 0rem!important;
+        }
+        .pixel-perfect {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 480px){
+        .counters > div.d-flex {
+            flex-direction: column;
+        }
+        .counters .card-1, .counters .card-2, .counters .card-3, .counters .card-4, .counters .card-5 {
+            width: 100%;
+        }
+        .counters .display-4 {
+            font-size: calc(1.475rem + 5.7vw);
+        }
+        .counters .cp {
+            font-size: 19px;
+            margin-bottom: 3%;
+        }
+        .tech-brands img {
+            width: 2.8rem;
+        }
+        .card-dark {
+            transform: translate(13%);
+        }
+        .card-dark::before {
+            inset: 45px !important;
+        }
+        .proud-customers .border-end {
+            height: auto;
+            padding-bottom: 3%;
+            width: 30%;
+            border-right: 0!important;
+        }
+        /* .proud-customers .border-end img {
+            width: 190px!important;
+        } */
     }
 /* @media only screen and (max-width: 480px){
         body .aspnet-banner, .abp-banner h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
