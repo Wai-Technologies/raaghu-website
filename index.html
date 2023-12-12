@@ -2,34 +2,21 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Raaghu Website</title>
-
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-
     <title> Raaghu Website</title>
-
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="icon" type="image/x-icon" href="assets/img/fevicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> -->
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/revamp.css"> -->
-
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.css'>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css"> -->
 
@@ -43,8 +30,8 @@
 
         <!--============= navigation bar section start ==========-->
 
-      
-        <nav class="navbar fixed-top navbar-expand-lg main-menu p-0" id="rds-nav">
+
+        <nav class="navbar fixed-top navbar-expand-lg main-menu" id="rds-nav">
             <div class="container">
                 <a class="navbar-brand" href="./index.html">
                     <img src="assets/img/logo/raaghu-logo.png" class="img-fluid" width="40%">
@@ -59,38 +46,39 @@
                     </svg>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav ms-auto mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-lg-0 d-flex align-items-center gap-2">
                         <li class="nav-item">
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="https://portal.raaghu.io/selectplans">
                                 Pricing Plans
                             </a>
-                            <!-- <a class="nav-link" href="https://portal.raaghu.io/selectplans">
-                                Pricing Plans
-                            </a> -->
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./raaghu-mfe-portal/_accordion.html">Components</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="">Documentation</a>
-                            <!-- <a class="nav-link text-dark" href="https://icy-sand-039e20510.3.azurestaticapps.net/">Documentation</a> -->
+                        <li class="nav-item pe-2">
+                            <a class="nav-link text-dark" href="https://docs.raaghu.io/"
+                                target="_blank">Documentation</a>
+                        </li>
+                        <li class="nav-item border-start-custom position-relative ps-2">
+                            <a class="nav-link text-black-50" href="#">Support</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Support</a>
+                            <a class="nav-link text-black-50" href="Faq.html">FAQ</a>
                         </li>
-                        <li class="nav-item pe-3">
-                            <a class="nav-link" href="Faq.html">FAQ</a>
-                        </li>
-                        <li class="nav-item pe-3 d-flex align-items-center">
-                            <a href="" role="button" class="btn btn-sm btn-outline-primary px-4">LOGIN</a>
-                            <!-- <a href="https://portal.raaghu.io/login" role="button" class="btn btn-sm btn-outline-primary px-4">LOGIN</a> -->
-                        </li>
-                        <li class="nav-item d-flex align-items-center">
-                            <a href="" role="button" class="btn btn-sm btn-primary text-white px-4">REGISTER</a>
-                            <!-- <a href="https://portal.raaghu.io/register" role="button" class="btn btn-sm btn-primary text-white px-4">REGISTER</a> -->
+                        <li class="nav-item">
+                            <ul class="align-items-center d-flex gap-3 list-unstyled ms-lg-3 ms-xl-3 ms-xxl-3">
+                                <li class="nav-item">
+                                    <a href="https://portal.raaghu.io/login" role="button"
+                                        class="btn btn-sm btn-outline-primary px-4">LOGIN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://portal.raaghu.io/register" role="button"
+                                        class="btn btn-sm btn-primary text-white px-4">REGISTER</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
-                </div>            
+                </div>
             </div>
         </nav>
 
@@ -101,7 +89,7 @@
         <div class="video-wrapper home-banner">
             <div class="container pt-5">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12 col-12 align-items-center">
+                    <div class="col-lg-6 col-md-12 col-12 align-items-center pt-lg-4 pt-5 mt-lg-0 mt-2">
                         <div class="d-flex align-items-center gap-3">
                             <div>
                                 <img src="/assets/img/abp-commercial.svg" height="22px" alt="abp commercial logo">
@@ -110,10 +98,7 @@
                                 <p class="mb-0 fs-5 fw-semibold">+</p>
                             </div>
                             <div class="d-flex align-items-center gap-2">
-                                <rds-animation src="assets/json/react-js.json" delay="1" speed="100" frame_rate="24"
-                                    trigger="loop" style="width: 50px;height: 50px;">
-                                </rds-animation>
-                                <script src="assets/js/lottie-embed.js" defer></script>
+                                <img src="/assets/img/React-icon.svg" width="23px" alt="">
                                 <p class="mb-0">React</p>
                             </div>
                         </div>
@@ -158,16 +143,18 @@
                                 </svg>
                                 <span class="ps-2 fs-6 fw-normal"> Typescript </span>
                             </li>
-                            <li class="mb-3">
+                            <li class="mb-3 pb-3">
                                 <img src="/assets/img/Module_Federation-banner.png" height="20px" width="20px">
                                 <span class="ps-2 fs-6 fw-normal"> Module Federation </span>
                             </li>
                         </ul>
                         <div class="d-flex align-items-center gap-4 mobile-btn-rwo pb-5 ">
-                                <a data-bs-toggle="modal" data-bs-target="#contactusModal" class="btn btn-outline-primary btn-white btn-sm px-3 py-2 bg-white">CONTACT
-                                    US</a>
-                                <!-- <a href="https://portal.raaghu.io/selectplans" class="btn btn-primary text-white btn-sm px-3 py-2">BUY NOW</a> -->
-                                <a href="" class="btn btn-primary text-white btn-sm px-3 py-2">BUY NOW</a>
+                            <a data-bs-toggle="modal" data-bs-target="#contactusModal"
+                                class="btn btn-outline-primary btn-white btn-sm px-3 py-2 bg-white">CONTACT
+                                US</a>
+                            <!-- <a href="https://portal.raaghu.io/selectplans" class="btn btn-primary text-white btn-sm px-3 py-2">BUY NOW</a> -->
+                            <a href="https://portal.raaghu.io/selectplans"
+                                class="btn btn-primary text-white btn-sm px-3 py-2">BUY NOW</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-12 mobile-img">
@@ -177,7 +164,7 @@
                     </div>
 
                 </div>
-                <div class="mt-5">
+                <div class="mt-2">
                     <div class="d-flex gap-2">
                         <div>
                             <img src="/assets/img/React-icon.svg">
@@ -202,30 +189,33 @@
         <!--==================  features secction ===================-->
 
         <section class="features py-5">
-            <div class="container py-5">
+            <div class="container py-4">
                 <div class="text-center">
-                    <div class="d-flex align-items-center justify-content-center gap-3">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 27.992 30.049">
-                                <g id="React-icon" transform="translate(11.75 12.651)">
-                                  <circle id="Ellipse_9318" data-name="Ellipse 9318" cx="2.469" cy="2.469" r="2.469" transform="translate(-0.223 -0.095)" fill="#61dafb"/>
-                                  <g id="Group_192521" data-name="Group 192521" transform="translate(-11 -11.626)">
-                                    <ellipse id="Ellipse_9319" data-name="Ellipse 9319" cx="13.246" cy="5.057" rx="13.246" ry="5.057" transform="translate(0 8.943)" fill="none" stroke="#61dafb" stroke-width="1.5"/>
-                                    <ellipse id="Ellipse_9320" data-name="Ellipse 9320" cx="13.246" cy="5.057" rx="13.246" ry="5.057" transform="translate(11.003 0) rotate(60)" fill="none" stroke="#61dafb" stroke-width="1.5"/>
-                                    <ellipse id="Ellipse_9321" data-name="Ellipse 9321" cx="13.246" cy="5.057" rx="13.246" ry="5.057" transform="translate(24.249 5.057) rotate(120)" fill="none" stroke="#61dafb" stroke-width="1.5"/>
-                                  </g>
+                    <div class="d-flex align-items-center justify-content-center gap-3 pb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 27.992 30.049">
+                            <g id="React-icon" transform="translate(11.75 12.651)">
+                                <circle id="Ellipse_9318" data-name="Ellipse 9318" cx="2.469" cy="2.469" r="2.469"
+                                    transform="translate(-0.223 -0.095)" fill="#61dafb" />
+                                <g id="Group_192521" data-name="Group 192521" transform="translate(-11 -11.626)">
+                                    <ellipse id="Ellipse_9319" data-name="Ellipse 9319" cx="13.246" cy="5.057"
+                                        rx="13.246" ry="5.057" transform="translate(0 8.943)" fill="none"
+                                        stroke="#61dafb" stroke-width="1.5" />
+                                    <ellipse id="Ellipse_9320" data-name="Ellipse 9320" cx="13.246" cy="5.057"
+                                        rx="13.246" ry="5.057" transform="translate(11.003 0) rotate(60)" fill="none"
+                                        stroke="#61dafb" stroke-width="1.5" />
+                                    <ellipse id="Ellipse_9321" data-name="Ellipse 9321" cx="13.246" cy="5.057"
+                                        rx="13.246" ry="5.057" transform="translate(24.249 5.057) rotate(120)"
+                                        fill="none" stroke="#61dafb" stroke-width="1.5" />
                                 </g>
-                            </svg>      -->
-                        <rds-animation src="assets/json/react-js.json" delay="1" speed="100" frame_rate="24"
-                            trigger="loop" style="width: 50px;height: 50px;">
-                        </rds-animation>
-                        <script src="assets/js/lottie-embed.js" defer></script>
-
+                            </g>
+                        </svg>
                         <h1 class="mb-0 bolder secondary-gradient">
                             Salient Features
                         </h1>
                     </div>
-                    <h6 class="mt-3 text-secondary">
-                        Enables building complex pages, Ui layouts. Customize CSS code to maintain the appearance of your application
+                    <h6 class="text-secondary">
+                        Enables building complex pages, Ui layouts. Customize CSS code to maintain the appearance of
+                        your application
                     </h6>
                 </div>
                 <div class="row pt-5">
@@ -256,7 +246,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <p class="mb-0 text-secondary f-18 fw-semibold">Micro Frontend</p>
+                                <p class="mb-0 text-secondary f-18 pb-1 fw-semibold">Micro Frontend</p>
                                 <p class="mb-0 text-secondary-para pe-xxl-5">
                                     An React based framework with micro services for modern scalable applications
                                 </p>
@@ -293,7 +283,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <p class="mb-0 text-secondary f-18 fw-semibold">Open source</p>
+                                <p class="mb-0 text-secondary f-18 pb-1 fw-semibold">Open source</p>
                                 <p class="mb-0 text-secondary-para pe-xxl-5">
                                     Open Source design system for Rapid acceleration Development..
                                 </p>
@@ -320,7 +310,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <p class="mb-0 text-secondary f-18 fw-semibold">Based on Bootstrap</p>
+                                <p class="mb-0 text-secondary f-18 pb-1 fw-semibold">Based on Bootstrap</p>
                                 <p class="mb-0 text-secondary-para pe-xxl-5">
                                     Made with bootstrap css classes with mobile first approach.
                                 </p>
@@ -357,7 +347,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <p class="mb-0 text-secondary f-18 fw-semibold">End - End Support</p>
+                                <p class="mb-0 text-secondary f-18 pb-1 fw-semibold">End - End Support</p>
                                 <p class="mb-0 text-secondary-para pe-xxl-5">
                                     Get access and support from the team through our support portal
                                 </p>
@@ -401,7 +391,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <p class="mb-0 text-secondary f-18 fw-semibold">Dark/Light & Accessible Themes</p>
+                                <p class="mb-0 text-secondary f-18 pb-1 fw-semibold">Dark/Light & Accessible Themes</p>
                                 <p class="mb-0 text-secondary-para pe-xxl-5">
                                     Choose per your branding requirements or user preferences
                                 </p>
@@ -430,7 +420,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <p class="mb-0 text-secondary f-18 fw-semibold">Typescript</p>
+                                <p class="mb-0 text-secondary f-18 pb-1 fw-semibold">Typescript</p>
                                 <p class="mb-0 text-secondary-para pe-xxl-5">
                                     Add types to variables, functions, and properties, making code easily readable.
                                 </p>
@@ -502,7 +492,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <p class="mb-0 text-secondary f-18 fw-semibold">Internationalisation (i18n)</p>
+                                <p class="mb-0 text-secondary f-18 pb-1 fw-semibold">Internationalisation (i18n)</p>
                                 <p class="mb-0 text-secondary-para pe-xxl-5">
                                     Add a Local flavour to your Apps by building them in native languages.
                                 </p>
@@ -533,7 +523,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <p class="mb-0 text-secondary f-18 fw-semibold">React Hooks</p>
+                                <p class="mb-0 text-secondary f-18 pb-1 fw-semibold">React Hooks</p>
                                 <p class="mb-0 text-secondary-para pe-xxl-5">
                                     Easily achieve clear and concise code quality.
                                 </p>
@@ -561,7 +551,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <p class="mb-0 text-secondary f-18 fw-semibold">Efficient Two-Way Data Binding</p>
+                                <p class="mb-0 text-secondary f-18 pb-1 fw-semibold">Efficient Two-Way Data Binding</p>
                                 <p class="mb-0 text-secondary-para pe-xxl-5">
                                     Achieve faster information updation unlike in one way data binding
                                 </p>
@@ -587,8 +577,11 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="pb-2">
-                            <h6 class="text-white fs-5">
+                            <!-- <h6 class="text-white fs-5">
                                 Designed with Pixel Perfect precision and accessibility in mind
+                            </h6> -->
+                            <h6 class="text-white fs-5">
+                                Designed with Pixel Perfect precision in mind
                             </h6>
                         </div>
                     </div>
@@ -671,8 +664,8 @@
         <section class="py-md-5 my-5">
             <div class="container">
                 <div class="text-center position-relative pb-5">
-                    <h3 class="text-black fw-semibold mb-1 justify-content-center text-center">
-                        Discover what our <span class="banner-gradient h2 fw-bold">Product</span> offers!
+                    <h3 class="fs-3 text-black fw-semibold mb-1 justify-content-center text-center">
+                        Discover what our <span class="banner-gradient fs-1 fw-bold">Product</span> offers!
                     </h3>
                     <img src="/assets/img/underline.png" alt="underline" class="custom-underline">
                 </div>
@@ -694,7 +687,8 @@
                     </div>
                 </div>
 
-                <div class="align-items-center flex-column-reverse flex-xxl-row flex-xl-row flex-lg-row mt-lg-5 pt-lg-5 row">
+                <div
+                    class="align-items-center flex-column-reverse flex-xxl-row flex-xl-row flex-lg-row mt-lg-5 pt-lg-5 row">
                     <div class="col-xxl-5 col-xl-5 col-lg-6 col-12 mb-xxl-3 mb-xl-3 mb-lg-3 mb-5">
                         <ul class="custom-checklist list-unstyled">
                             <li class="text-muted-light f-18 d-flex gap-3 mb-4">Crud UI generator</li>
@@ -724,7 +718,7 @@
         <!-- ===================== Pre-Built Application section start ================================ -->
 
         <section class="bg-muted pre-built text-center py-5">
-            <div class="container py-5">
+            <div class="container pb-5 pt-4">
                 <h4 class="fw-bold pb-2">
                     Pre-built application modules compatible with ABP Commercial
                 </h4>
@@ -1255,7 +1249,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
@@ -1264,8 +1258,13 @@
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
-                        </button>
+                        </button> -->
                     </div>
+
+                </div>
+                <div class="pt-5 mt-4">
+                    <a href="https://portal.raaghu.io/selectplans"
+                        class="btn btn-primary text-white btn-sm px-3 py-2">BUY NOW</a>
                 </div>
             </div>
 
@@ -1275,16 +1274,16 @@
         <!-- ===================== robust-technology section start ================================ -->
 
         <section class="robust-technology py-5">
-            <div class="container py-5">
+            <div class="container py-4">
                 <div class="container text-center">
-                    <h4 class="mb-3 fw-bold">
+                    <h4 class="mb-2 fs-2 fw-bold">
                         Built on a
                         <span class="decorative-heading">
                             Robust
                         </span>
                         technology stack.
                     </h4>
-                    <h6 class="mb-4">
+                    <h6 class="mb-4 text-black-50">
                         Speeding up frontend development with ABP commercial
                     </h6>
                     <div class="d-xxl-flex d-xl-flex d-lg-flex d-md-flex justify-content-around pb-4 pt-5 tech-brands">
@@ -1321,9 +1320,9 @@
 
         <!-- ===================== Downloadable elements contents section start ================================ -->
         <section class="downloadable-contents py-5">
-            <div class="container py-5">
+            <div class="container py-4">
                 <div class="text-center">
-                    <p class="fs-6 mb-2 text-secondary-para">100% standardisation in Design & Development with our</p>
+                    <p class="fs-6 mb-2 text-secondary">100% standardisation in Design & Development with our</p>
                     <h4 class="mt-1 text-secondary pb-5">
                         Downloadable Elements, Components & Built-in pages.
                     </h4>
@@ -1332,15 +1331,17 @@
                     <div
                         class="align-item-center bg-transparent card card-dark d-flex justify-content-center px-5 py-5">
                         <div class="text-center">
-                            <!-- <img src="assets/img/revamp-home-page/home/Adobe_XD.png" width="40px"> -->
-                            <rds-animation src="assets/json/adobe-xd.json" delay="0.5" speed="100" frame_rate="24"
+                            <div class="pb-3">
+                                <img src="assets/img/Adobe_XD.png" width="40px">
+                            </div>
+                            <!-- <rds-animation src="assets/json/adobe-xd.json" delay="0.5" speed="100" frame_rate="24"
                                 trigger="loop" style="width: 100%;height: 70px;">
                             </rds-animation>
-                            <script src="assets/js/lottie-embed.js" defer></script>
+                            <script src="assets/js/lottie-embed.js" defer></script> -->
                             <p class="mb-0 text-white">
                                 Adobe XD
                             </p>
-                            <a href="#" class="secondary-link">
+                            <a href="#" class="secondary-link text-decoration-underline">
                                 Download UI Kit
                             </a>
                         </div>
@@ -1348,11 +1349,13 @@
                     <div
                         class="align-item-center bg-transparent card card-dark d-flex justify-content-center px-5 py-5">
                         <div class="text-center">
-                            <!-- <img src="assets/img/revamp-home-page/home/Figma.png" width="30px"> -->
-                            <rds-animation src="assets/json/figma.json" delay="0.5" speed="100" frame_rate="24"
+                            <div class="pb-3">
+                                <img src="assets/img/Figma.png" width="30px">
+                            </div>
+                            <!-- <rds-animation src="assets/json/figma.json" delay="0.5" speed="100" frame_rate="24"
                                 trigger="loop" style="width: 100%;height: 70px;">
                             </rds-animation>
-                            <script src="assets/js/lottie-embed.js" defer></script>
+                            <script src="assets/js/lottie-embed.js" defer></script> -->
                             <p class="mb-0 text-white">
                                 Figma
                             </p>
@@ -1370,54 +1373,31 @@
 
         <section class="proud-customers  border-gradient border-gradient-purple border-end-0 border-start-0 py-5">
             <div class="container py-4">
-                <div class="text-center fw-bold py-4">
+                <div class="text-center fw-bold pb-4">
                     <h3 class="fw-bold">
                         Proud Customers
                     </h3>
                 </div>
-                <!-- <div class="brand-names my-4">
-                    <div class="d-flex text-center justify-content-center align-items-center">
-                        <div class="mb-3 border-end">
-                            <img src="/assets/img/aaa-academy.png" class="img-fluid px-3" alt="logo" width="200px">
-                            <span class="line"></span>
-                        </div>
-                        <div class="mb-3 border-end">
-                            <img src="/assets/img/itp.png" class="img-fluid px-3" alt="logo" width="150px">
-                        </div>
-                        <div class="mb-3 border-end">
-                            <img src="/assets/img/hire-tech.png" class="img-fluid px-3" alt="logo" width="110px">
-                        </div>
-                        <div class="mb-3 border-end">
-                            <img src="/assets/img/yoga-point.png" class="img-fluid px-3" alt="clogo" width="180px">
-                        </div>
-                        <div class="mb-3 border-end">
-                            <img src="/assets/img/tcc.png" class="img-fluid px-3" alt="logo" width="110px">
-                        </div>
-                        <div class="mb-3">
-                            <img src="/assets/img/doohclick.png" class="img-fluid px-3" alt="logo" width="150px">
-                        </div>
-                    </div>
-                </div> -->
                 <div class="brand-names my-4">
                     <div class="row text-center justify-content-center align-items-center">
                         <div class="col-md-2 col-sm-6 col-xs-6 mb-3 border-end">
-                            <img src="/assets/img/aaa-academy.png" class="img-fluid" alt="logo" width="200px">
+                            <img src="/assets/img/aaa-academy.png" class="img-fluid" alt="logo" width="150px">
                             <span class="line"></span>
                         </div>
                         <div class="col-md-2 col-sm-6 col-xs-6 mb-3 border-end">
-                            <img src="/assets/img/itp.png" class="img-fluid" alt="logo" width="150px">
+                            <img src="/assets/img/itp.png" class="img-fluid" alt="logo" width="130px">
                         </div>
                         <div class="col-md-2 col-sm-6 col-xs-6 mb-3 border-end">
-                            <img src="/assets/img/hire-tech.png" class="img-fluid" alt="logo" width="110px">
+                            <img src="/assets/img/hire-tech.png" class="img-fluid" alt="logo" width="100px">
                         </div>
                         <div class="col-md-2 col-sm-6 col-xs-6 mb-3 border-end">
-                            <img src="/assets/img/yoga-point.png" class="img-fluid" alt="clogo" width="180px">
+                            <img src="/assets/img/yoga-point.png" class="img-fluid" alt="clogo" width="130px">
                         </div>
                         <div class="col-md-2 col-sm-6 col-xs-6 mb-3 border-end">
                             <img src="/assets/img/tcc.png" class="img-fluid" alt="logo" width="110px">
                         </div>
                         <div class="col-md-2 col-sm-6 col-sm-6 col-xs-6 mb-3">
-                            <img src="/assets/img/doohclick.png" class="img-fluid" alt="logo" width="150px">
+                            <img src="/assets/img/doohclick.png" class="img-fluid" alt="logo" width="130px">
                         </div>
                     </div>
                 </div>
@@ -1429,8 +1409,8 @@
         <!-- ===================== Themes section start ================================ -->
 
         <section class="themes text-center py-5">
-            <div class="container py-5">
-                <h4 class="fw-bold">
+            <div class="container pb-4 pt-5">
+                <h4 class="fw-bold fs-3">
                     Customisable
                     <span class="decorative-heading">
                         themes
@@ -1473,57 +1453,56 @@
                     </div>
                 </div>
                 <div class="gap-4 d-flex justify-content-center">
-                    <a data-bs-toggle="modal" data-bs-target="#contactusModal" class="btn btn-outline-primary btn-white btn-sm px-3 py-2 bg-white">
+                    <a data-bs-toggle="modal" data-bs-target="#contactusModal"
+                        class="btn btn-outline-primary btn-white btn-sm px-3 py-2 bg-white">
                         CONTACT US
                     </a>
                     <!-- <a href="https://portal.raaghu.io/selectplans" class="btn btn-primary text-white btn-sm px-3 py-2">BUY NOW</a> -->
-                    <a href="" class="btn btn-primary text-white btn-sm px-3 py-2">BUY NOW</a>
+                    <a href="https://portal.raaghu.io/selectplans"
+                        class="btn btn-primary text-white btn-sm px-3 py-2">BUY NOW</a>
                 </div>
             </div>
         </section>
 
         <!-- ===================== Themes section start ================================ -->
 
-        <!-- ====================== Hire Us Section ====================================== -->
-        <section class="container px-lg-5 px-md-3 pb-5">
-            <div class="pixel-perfect rounded-3 pe-5 py-4 ps-lg-5 ms-lg-3 text-white">
-                <div class="ps-5 ms-5">
-                    <h6 class="f-18">
-                        Need raaghu react framework expertise in your team?
-                    </h6>
-                    <p>
-                        Our Developers are proficient in React and ABP commercial               
-                    </p>
-                </div>
-                <form class="ps-5 ms-5">
-                    <div class="pt-2 d-flex justify-content-start gap-2">
 
-                        <div class="input-group w-50">
-                            <input type="email" class="form-control" required placeholder="Email ID" aria-label="email id"
-                                aria-describedby="basic-addon1">
+        <!-- ====================== Hire Us Section ====================================== -->
+        <section class="container px-lg-5 px-md-3 pb-5 mb-5">
+            <div class="pixel-perfect rounded-3 ps-lg-0 ps-4 pe-4 py-4 ps-lg-5 ms-lg-3 px-md-5 text-white">
+                <div class="row align-items-center">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-12 pe-5 pb-lg-0 pb-3">
+                        <div class="">
+                            <h6 class="fs-5 fw-bold pe-xl-5 pe-0">
+                                Need raaghu react framework expertise in your team?
+                            </h6>
+                            <p class="fs-6">
+                                Our Developers are proficient in React and ABP commercial
+                            </p>
                         </div>
-                        <!-- <a href="https://portal.raaghu.io/raaghuassistance" class="btn px-3 btn-primary">
-                            <div class="d-flex align-items-center gap-2 px-4 btn-sm">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-person" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
-                                </svg>
-                                <span> GET RAAGHU ASSISTANCE</span>
-                            </div>
-                        </a> -->
-                        <a href="" class="btn px-lg-3 btn-primary">
-                            <div class="d-flex align-items-center gap-2 px-lg-4 btn-sm">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-person" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
-                                </svg>
-                                <span> GET RAAGHU ASSISTANCE</span>
-                            </div>
-                        </a>
                     </div>
-                </form>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-12">
+                        <form class="">
+                            <div class="position-relative">
+                                <div class="input-group mb-md-0 mb-3">
+                                    <input type="email" class="assistance-input form-control lh-lg py-2" required placeholder="Email ID"
+                                        aria-label="email id" aria-describedby="basic-addon1">
+                                </div>
+                                <a href="" class="btn btn-primary btn-sm position-absolute position-sm-relative assistance-btn">
+                                    <div class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            class="bi bi-person" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                                        </svg>
+                                        <span> GET RAAGHU ASSISTANCE</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
             </div>
         </section>
         <!-- ===================== /Hire Us Section ====================================== -->
@@ -1762,8 +1741,7 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-12 bg-dark">
                             <div class="mt-5">
-                                <img src="assets/img/raaghu-logo-white.png"
-                                    class="img-fluid w-25 pl-2">
+                                <img src="assets/img/raaghu-logo-white.png" class="img-fluid w-25 pl-2">
 
                                 <img src="assets/img/contactus_banner.png" class="img-fluid">
                             </div>
@@ -1812,7 +1790,8 @@
                                             <label class="form-check-label" for="exampleCheck1">I agree to the <a
                                                     href="#"> terms & privacy policy </a></label>
                                         </div>
-                                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn btn-primary btn-sm btn-block">Submit</button>
+                                        <button type="button" data-bs-dismiss="modal" aria-label="Close"
+                                            class="btn btn-primary btn-sm btn-block">Submit</button>
                                     </form>
                                 </div>
                             </div>
