@@ -2,9 +2,26 @@
 <html lang="en">
 
 <head>
-   <!-- Required meta tags -->
+   <!-- meta tags -->
    <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="author" content="Raaghu" />
+   <meta name="description" content="">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="">
+   <meta property="og:title" content="">
+   <meta property="og:description" content="">
+   <meta property="og:image" content="" />
+   <meta name="twitter:card" content="">
+   <meta name="twitter:title" content="">
+   <meta name="twitter:image" content="">
+   <meta name="ahrefs-site-verification" content="">
+   <meta name="google-site-verification" content="" />
+   <link rel="canonical" href="">
+   <meta name="robots" content="index, follow" />
+   <meta name="googlebot" content="index, follow" />
    <link rel="icon" type="image/x-icon" href="/assets/img/fevicon.ico">
 
    <!-- Bootstrap CSS -->
@@ -23,8 +40,8 @@
    <!-- Navigation Bar -->
    <nav class="navbar navbar-expand-lg sticky-top bg-white py-2">
       <div class="container-fluid">
-         <a class="navbar-brand d-lg-block d-none" href="#">
-            <img src="/assets/img/logo/raaghu-logo.png" class="img-fluid" width="40%">
+         <a class="navbar-brand d-lg-block d-none" href="/index.html">
+            <img src="images/logo/Raaghu-logo-mfe-black.png" class="img-fluid" width="40%" alt="Raaghu Logo">
          </a>
          <button class="navbar-toggler" type="button" onclick="toggleSidebar()" aria-label="Toggle sidebar">
             <svg xmlns="http://www.w3.org/2000/svg" width="4" height="20" viewBox="0 0 4 20">
@@ -38,8 +55,8 @@
                </g>
             </svg>
          </button>
-         <a class="navbar-brand d-lg-none d-block" href="#">
-            <img src="/assets/img/logo/raaghu-logo.png" class="img-fluid" width="40%">
+         <a class="navbar-brand d-lg-none d-block" href="/index.html">
+            <img src="images/logo/Raaghu-logo-mfe-black.png" class="img-fluid" width="40%" alt="Raaghu Logo">
          </a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,32 +80,39 @@
                <div class="col-xxl-9 col-xl-9 col-lg-12 col-12">
                   <ul
                      class="align-items-center justify-content-end navbar-nav d-flex gap-2 bg-white mt-lg-0 mt-1 py-lg-0 py-4">
-                     <li class="nav-item">
-                        <a class="nav-link" href="https://portal.raaghu.io/selectplans">
-                           Pricing Plans
-                        </a>
-                     </li>
+                     <!-- <li class="nav-item">
+                     <a class="nav-link" href="https://portal.raaghu.io/selectplans">
+                        Pricing Plans
+                     </a>
+                  </li> -->
                      <li class="nav-item">
                         <a class="nav-link" href="./raaghu-mfe-portal/_accordion.html">Components</a>
                      </li>
                      <li class="nav-item pe-2">
                         <a class="nav-link" href="https://docs.raaghu.io/" target="_blank">Documentation</a>
                      </li>
-                     <li class="nav-item border-start-custom position-relative ps-2">
-                        <a class="nav-link text-black-50" href="#">Support</a>
-                     </li>
+                     <!-- <li class="nav-item border-start-custom position-relative ps-2">
+                     <a class="nav-link text-black-50" href="https://support.raaghu.io/support/home">Support</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link text-black-50" href="/Faq.html">FAQ</a>
+                  </li> -->
                      <li class="nav-item">
-                        <a class="nav-link text-black-50" href="Faq.html">FAQ</a>
+                        <a class="nav-link text-dark" href="/Custom-design-services.html">Custom Design Services</a>
                      </li>
-                     <li class="nav-item">
+                     <li class="nav-item pt-3 pt-lg-0">
                         <ul class="align-items-center d-flex gap-3 list-unstyled ms-lg-3 ms-xl-3 ms-xxl-3">
                            <li class="nav-item">
                               <a href="https://portal.raaghu.io/login" role="button"
                                  class="btn btn-sm btn-outline-primary px-4">LOGIN</a>
                            </li>
+                           <!-- <li class="nav-item">
+                           <a href="https://portal.raaghu.io/register" role="button"
+                              class="btn btn-sm btn-primary text-white px-4">REGISTER</a>
+                        </li> -->
                            <li class="nav-item">
-                              <a href="https://portal.raaghu.io/register" role="button"
-                                 class="btn btn-sm btn-primary text-white px-4">REGISTER</a>
+                              <a href="https://portal.raaghu.io/selectplans" role="button"
+                                 class="btn btn-sm btn-primary text-white px-4">BUY NOW</a>
                            </li>
                         </ul>
                      </li>
@@ -99,7 +123,7 @@
       </div>
    </nav>
    <main class="main-content">
-      <div class="row">
+      <div class="row g-0">
          <div class="col-xxl-2 col-xl-2 col-lg-3 col-12 left-section">
             <!-- Sidebar -->
             <div id="sidebar" class="sidebar navbar-light shadow">
@@ -109,10 +133,9 @@
                         <div class="offcanvas-header pt-3 mt-3 border-0 d-block">
                            <div class="mt-md-5">
                               <div class="input-group cursor-pointer">
-                                 <input class="form-control border-end-0 border" type="search" placeholder="Search"
-                                    id="example-search-input">
-                                 <span class="input-group-append border">
-                                    <button class="btn btn-light bg-white border-start-0 border-bottom-0 py-1 px-1"
+                                 <input type="search" class="form-control border-end-0 border" id="myInput" oninput="myFunction()" placeholder="Search...">
+                                 <span class="input-group-append border rounded-end">
+                                    <button class="btn bg-white border-start-0 py-1 ps-0"
                                        type="button">
                                        <i class="bi bi-search"></i>
                                     </button>
@@ -129,16 +152,17 @@
                                           data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                           aria-expanded="false" aria-controls="flush-collapseOne">
                                           <div class="suheading pb-2">
-                                             <img src="images/logo/element-icon1.svg" class="img-fluid" width="20px">
+                                             <img src="images/logo/element-icon1.svg" class="img-fluid" width="20px" alt="Element Icon">
                                              <span class="px-3"> Elements </span>
                                           </div>
                                        </button>
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse"
                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                       <div class="accordion-body">
+                                       <div class="accordion-body pe-0 ps-5 ps-lg-4 ps-md-4 ps-xl-4 ps-xxl-4 pt-0">
                                           <div class="mb-3">
-                                             <ul class="">
+                                             <ul class="sidebar-list">
+                                                <div id="notFoundMessage" class="ps-3" style="display:none;">No items found.</div>
                                                 <li>
                                                    <a href="_accordion.html">
                                                       Accordion
@@ -231,16 +255,17 @@
                                           data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                           aria-expanded="false" aria-controls="flush-collapseTwo">
                                           <div class="suheading pb-2  align-middle">
-                                             <img src="images/logo/components-icon1.svg" class="img-fluid" width="20px">
+                                             <img src="images/logo/components-icon1.svg" class="img-fluid" width="20px" alt="Component Icon">
                                              <span class="px-3"> Components </span>
                                           </div>
                                        </button>
                                     </h2>
                                     <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                       <div class="accordion-body">
+                                       <div class="accordion-body pe-0 ps-5 ps-lg-4 ps-md-4 ps-xl-4 ps-xxl-4 pt-0">
                                           <div class="mb-3">
-                                             <ul class="">
+                                             <ul class="sidebar-list">
+                                                <div id="notFoundMessage" class="ps-3" style="display:none;">No items found.</div>
                                                 <li>
                                                    <a href="_app-details.html">
                                                       App Details
@@ -352,16 +377,17 @@
                                           data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                           aria-expanded="false" aria-controls="flush-collapseThree">
                                           <div class="suheading pb-2">
-                                             <img src="images/logo/chart-icon1.svg" class="img-fluid" width="20px">
+                                             <img src="images/logo/chart-icon1.svg" class="img-fluid" width="20px" alt="Chart Icon">
                                              <span class="px-3"> Charts </span>
                                           </div>
                                        </button>
                                     </h2>
                                     <div id="flush-collapseThree" class="accordion-collapse collapse show"
                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                       <div class="accordion-body">
+                                       <div class="accordion-body pe-0 ps-5 ps-lg-4 ps-md-4 ps-xl-4 ps-xxl-4 pt-0">
                                           <div class="mb-3">
-                                             <ul class="">
+                                             <ul class="sidebar-list">
+                                                <div id="notFoundMessage" class="ps-3" style="display:none;">No items found.</div>
                                                 <li>
                                                    <a href="charts_area.html">
                                                       Area Chart
@@ -439,10 +465,10 @@
 
          <!-- main body content -->
          <div class="col-xxl-10 col-xl-10 col-lg-9 col-12">
-            <div class="mt-4 px-xxl-5 px-xl-5 pe-lg-4 ps-lg-0 px-5 py-2">
-               <h4 class="mt-0">
+            <div class="mt-5 mt-lg-4 mt-md-5 pe-lg-4 ps-lg-0 px-4 px-md-5 px-xl-5 px-xxl-5 py-2">
+               <h1 class="mt-0 h4">
                   Radar Chart
-               </h4>
+               </h1>
                <p class="pb-3">
                   It is a user-friendly form that facilitates the seamless creation of a new account for users,
                   streamlining the process and ensuring a smooth onboarding experience. It is a user-friendly form that
@@ -503,7 +529,7 @@
 
                               <div class="row">
                                  <div class="col-md-12 col-12">
-                                    <img src="./images/charts/Light_Radar.png" class="img-fluid">
+                                    <img src="./images/charts/Light_Radar.png" class="img-fluid" alt="Radar Chart Preview Image">
                                  </div>
                               </div>
 
@@ -526,7 +552,7 @@
                                        </div> -->
 
                               <div class="p-5">
-                                 <img src="images/login-illustration.png" class="img-fluid">
+                                 <img src="images/login-illustration.png" class="img-fluid" alt="Login Illustration Icon">
                                  <h5 class="pt-4">
                                     Sign In Required !
                                  </h5>
@@ -565,4 +591,5 @@
 
 
 </body>
+
 </html>

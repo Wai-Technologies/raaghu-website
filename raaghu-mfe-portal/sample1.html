@@ -1,0 +1,807 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/assets/img/fevicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/raaghu-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/components/style-elements.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/rds-component.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.0/lottie.min.js"></script>
+
+    <title> Raaghu Design System | Accordian </title>
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-white py-2">
+        <div class="container-fluid">
+            <a class="navbar-brand d-lg-block d-none" href="#">
+                <img src="/assets/img/logo/raaghu-logo.png" class="img-fluid" width="40%">
+            </a>
+            <button class="navbar-toggler" type="button" onclick="toggleSidebar()" aria-label="Toggle sidebar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="4" height="20" viewBox="0 0 4 20">
+                    <g id="_3dots" data-name="3dots" transform="translate(-0.201 -0.777)">
+                        <circle id="Ellipse_8101" data-name="Ellipse 8101" cx="2" cy="2" r="2"
+                            transform="translate(0.201 0.777)" fill="#34384f" />
+                        <circle id="Ellipse_8102" data-name="Ellipse 8102" cx="2" cy="2" r="2"
+                            transform="translate(0.201 8.777)" fill="#34384f" />
+                        <circle id="Ellipse_8103" data-name="Ellipse 8103" cx="2" cy="2" r="2"
+                            transform="translate(0.201 16.777)" fill="#34384f" />
+                    </g>
+                </svg>
+            </button>
+            <a class="navbar-brand d-lg-none d-block" href="#">
+                <img src="/assets/img/logo/raaghu-logo.png" class="img-fluid" width="40%">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <svg viewBox="0 0 100 80" width="25" height="25" fill="#000">
+                    <rect width="100" height="10"></rect>
+                    <rect y="30" width="100" height="10"></rect>
+                    <rect y="60" width="100" height="10"></rect>
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="align-items-center row">
+                    <div class="col-xxl-3 col-xl-3 col-12 d-xl-block">
+                        <nav aria-label="breadcrumb" class="d-xl-block d-none ps-3">
+                            <ol class="breadcrumb justify-content-center mb-0 ms-4 ps-5">
+                                <li class="breadcrumb-item"><a class="text-dark text-decoration-none"> Elements </a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page"> Accordion </li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-xxl-9 col-xl-9 col-lg-12 col-12">
+                        <ul
+                            class="align-items-center justify-content-end navbar-nav d-flex gap-2 bg-white mt-lg-0 mt-1 py-lg-0 py-4">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://portal.raaghu.io/selectplans">
+                                    Pricing Plans
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./raaghu-mfe-portal/_accordion.html">Components</a>
+                            </li>
+                            <li class="nav-item pe-2">
+                                <a class="nav-link" href="https://docs.raaghu.io/" target="_blank">Documentation</a>
+                            </li>
+                            <li class="nav-item border-start-custom position-relative ps-2">
+                                <a class="nav-link text-black-50" href="#">Support</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black-50" href="Faq.html">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <ul class="align-items-center d-flex gap-3 list-unstyled ms-lg-3 ms-xl-3 ms-xxl-3">
+                                    <li class="nav-item">
+                                        <a href="https://portal.raaghu.io/login" role="button"
+                                            class="btn btn-sm btn-outline-primary px-4">LOGIN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://portal.raaghu.io/register" role="button"
+                                            class="btn btn-sm btn-primary text-white px-4">REGISTER</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="main-content">
+        <div class="row">
+            <div class="col-xxl-2 col-xl-2 col-lg-3 col-12 left-section">
+                <!-- Sidebar -->
+                <div id="sidebar" class="sidebar navbar-light shadow">
+                    <div class="position-sticky">
+                        <div class="pt-4">
+                            <div class="">
+                                <div class="offcanvas-header pt-3 mt-3 border-0 d-block">
+                                    <div class="mt-md-5">
+                                        <div class="input-group cursor-pointer">
+                                            <input class="form-control border-end-0 border" type="search"
+                                                placeholder="Search" id="example-search-input">
+                                            <span class="input-group-append border">
+                                                <button
+                                                    class="btn btn-light bg-white border-start-0 border-bottom-0 py-1 px-1"
+                                                    type="button">
+                                                    <i class="bi bi-search"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="offcanvas-body sidebar-body">
+                                    <div class="menu-list">
+                                        <div class="accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingOne">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        <div class="suheading pb-2">
+                                                            <img src="images/logo/element-icon1.svg" class="img-fluid"
+                                                                width="20px">
+                                                            <span class="px-3"> Elements </span>
+                                                        </div>
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                                                    aria-labelledby="flush-headingOne"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">
+                                                        <div class="mb-3">
+                                                            <ul class="">
+                                                                <li class="active">
+                                                                    <a href="_accordion.html">
+                                                                        Accordion
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_avatar.html">
+                                                                        Avatar
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_avatar-groups.html">
+                                                                        Avatar Groups
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_badge.html">
+                                                                        Badge
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_breadcrumbs.html">
+                                                                        Breadcrumb
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_buttons.html">
+                                                                        Button
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_button-group.html">
+                                                                        Button Group
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_button-dropdown.html">
+                                                                        Button Dropdown
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_cards.html">
+                                                                        Card
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_carousel.html">
+                                                                        Carousel
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_checkbox.html">
+                                                                        Checkbox
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_collapse-button.html">
+                                                                        Collapse Button
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_color-picker.html">
+                                                                        Color Picker
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_date-time-picker.html">
+                                                                        Date-Time Picker
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_dropdown-list.html">
+                                                                        Dropdown List
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_file-uploaders.html">
+                                                                        File Uploaders
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingTwo">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                        <div class="suheading pb-2  align-middle">
+                                                            <img src="images/logo/components-icon1.svg"
+                                                                class="img-fluid" width="20px">
+                                                            <span class="px-3"> Components </span>
+                                                        </div>
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingTwo"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">
+                                                        <div class="mb-3">
+                                                            <ul class="">
+                                                                <li>
+                                                                    <a href="_app-details.html">
+                                                                        App Details
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_alert.html">
+                                                                        Alert
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_audit-logs.html">
+                                                                        Audit Logs
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_benefit.html">
+                                                                        Benefit
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_billing.html">
+                                                                        Billing
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_calendar.html">
+                                                                        Calendar
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_data-table.html">
+                                                                        Data Table
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_flyout-menu.html">
+                                                                        Flyout Menu
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_feeds.html">
+                                                                        Feeds
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_faq.html">
+                                                                        FAQ
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_Incentives.html">
+                                                                        Incentives
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_infinite-product-list.html">
+                                                                        Infinite Product List
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_login.html">
+                                                                        Login
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_member-activity.html">
+                                                                        Member Activity
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_notifications_popup.html">
+                                                                        Notifications Popup
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_order_details.html">
+                                                                        Order Details
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_pricing_table.html">
+                                                                        Pricing Table
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_product-list.html">
+                                                                        Product List
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_product_overview.html">
+                                                                        Product Overview
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="_reviews.html">
+                                                                        Reviews
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingThree">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                                        <div class="suheading pb-2">
+                                                            <img src="images/logo/chart-icon1.svg" class="img-fluid"
+                                                                width="20px">
+                                                            <span class="px-3"> Charts </span>
+                                                        </div>
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingThree"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">
+                                                        <div class="mb-3">
+                                                            <ul class="">
+                                                                <li class="active">
+                                                                    <a href="charts_area.html">
+                                                                        Area Chart
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="charts_bar.html">
+                                                                        Bar Chart
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="charts_boolean.html">
+                                                                        Boolean Chart
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="charts_bubble.html">
+                                                                        Bubble Chart
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="charts_doughnut.html">
+                                                                        Doughnut Chart
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="charts_line.html">
+                                                                        Line Chart
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="charts_mix.html">
+                                                                        Mix Chart
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="charts_pie.html">
+                                                                        Pie Chart
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="charts_polar-area.html">
+                                                                        Polar Area Chart
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="charts_radar.html">
+                                                                        Radar Chart
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="charts_scatter.html">
+                                                                        Scatter Chart
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="charts_stacked.html">
+                                                                        Stacked Chart
+                                                                    </a>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main body content -->
+            <div class="col-xxl-10 col-xl-10 col-lg-9 col-12">
+                <!-- <div class="row">
+                    <div class="col-md-12 mb-3 ">
+                        <div class="row ">
+                            <div class="col-md-4">
+                                {/* add alert here */}
+
+                                {Alert.show && (
+                                <RdsAlert alertmessage={Alert.message} colorVariant={Alert.color}></RdsAlert>
+                                )}
+
+                            </div>
+                            <div class="col-md-8 d-flex justify-content-end ">
+                                {/* add new button here with offcanvas*/}
+                                <RdsOffcanvas offcanvasbutton={ <div style={{ height: "35.98px" }}>
+                                    <RdsButton type={"button"} label={"New ${reducerName}"} iconColorVariant="light"
+                                        size="small" colorVariant="primary" icon="plus" iconFill={false}
+                                        iconStroke={true} iconHeight="12px" iconWidth="12px"></RdsButton>
+                            </div>
+                            }
+                            placement={"end"}
+                            backDrop={true}
+                            scrolling={false}
+                            preventEscapeKey={false}
+                            offId={"new${reducerName}"}
+                            canvasTitle={"New ${reducerName}"}
+                            offcanvaswidth={550}
+                            >
+                            <Rds${convertToCamelCase(`${componentName}`)} ${elementSelector.map((element)=>{
+                                return `${element.name}Prop = {""}`
+                                }).join("\n")}
+                                onSaveHandler={onNewCreate}
+                                ></Rds${convertToCamelCase(`${componentName}`)}>
+                            </RdsOffcanvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="card p-2 h-100 border-0 rounded-0 card-full-stretch">
+                        <div class="d-flex mt-3">
+                            <h5 class="col-md-9  ps-2 p-2">All ${reducerName}s</h5>
+                        </div>
+                        <div class="p-2">
+                            <RdsCompDatatable classes="table__userTable" tableHeaders={tableHeaders} pagination={true}
+                                tableData={Data} // data actions={actions} // add action={[ add array of actions you
+                                require]} here to have action dropdown onActionSelection={onActionSelection} // add
+                                onActionSelction here for what function you want to call recordsPerPage={5}
+                                recordsPerPageSelectListOption={true}></RdsCompDatatable>
+                        </div>
+                        {/* add edit offcanvas here */}
+                        <RdsOffcanvas placement={"end"} backDrop={true} scrolling={false} preventEscapeKey={false}
+                            offId={"${reducerName}Edit"} canvasTitle={"Edit"} offcanvaswidth={550}>
+                            <>
+                                <Rds${convertToCamelCase(`${componentName}`)} ${elementSelector.map((element)=>{
+                                    return `${element.name}Prop = {dataEmit.${element.name}}`
+                                    }).join("\n")}
+
+
+
+                                    onSaveHandler={onEdithandler}
+                                    ></Rds${convertToCamelCase(`${componentName}`)}>
+                            </>
+                        </RdsOffcanvas>
+                        <RdsCompAlertPopup alertID={"${reducerName}Del"} onSuccess={onDeleteHandler}>
+                        </RdsCompAlertPopup>
+
+                        {/* add alert pop up here */}
+                    </div>
+                </div> -->
+
+
+
+              
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="container-fluid m-0 p-0">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card px-4 py-4 border-0 rounded-0 card-full-stretch">
+                                <div class="mb-3 d-flex justify-content-end">
+                                    {/* add new  button here with offcanvas*/}
+            
+            
+                                    {pagePermission.create && 
+                                      <RdsOffcanvas
+                                      offcanvasbutton={
+                                        <div>
+                                          <RdsButton
+                                            type={"button"}
+                                            label={"New ${sliceReducerName}"}
+                                            iconColorVariant="light"
+                                            size="small"
+                                            colorVariant="primary"
+                                            icon="plus"
+                                            iconFill={false}
+                                            iconStroke={true}
+                                            iconHeight="12px"
+                                            iconWidth="12px"
+                                          ></RdsButton>
+                                        </div>
+                                      }
+                                      placement={"end"}
+                                      backDrop={true}
+                                      scrolling={false}
+                                      preventEscapeKey={false}
+                                      offId={"new${sliceReducerName}"}
+                                      canvasTitle={"New ${sliceReducerName}"}
+                                      offcanvaswidth={550}
+                                    >
+                                      <Rds${convertToPascalCase(`${componentName}`)}
+                                      ${propInfoForGeneration.map((element) => {
+                          if (element.format == "bool") {
+                            return `${element.name}${pageNameSingular}Prop =  ${element.DefaultValue ? `{${element.DefaultValue}}` : "{false}"}`
+                          } else if (element.format == "string") {
+                            return `${element.name}${pageNameSingular}Prop = ${element.DefaultValue ? `{"${element.DefaultValue}"}` : `{""}`}`
+                          } else if (element.format == "int") {
+                            return `${element.name}${pageNameSingular}Prop = ${element.DefaultValue ? `{${element.DefaultValue}}` : `{""}`}`
+                          }
+                          else {
+                            return `${element.name}${pageNameSingular}Prop = {""}`
+                          }
+                        }).join("\n")}
+                        ${navConnectionsInfoForGeneration.map((info) => {
+                          return `${info.EntityName}SelectProp = {${info.EntityName}items}
+                          ${info.EntityName}SelectedItemsProp = {[]}`
+                        }).join("\n")}
+                        ${navPropInfoForGeneration.map((element) => element.DisplayName + `${element.EntityName}Prop={""} \n  ${element.DisplayName}${element.EntityName}ListProp={${element.DisplayName}List}`).join("\n  ")}
+                                      onSaveHandler={onNewCreate}
+                                      offCanvasType={"create"}
+                                      ${propInfoForGeneration
+                            .filter((element) => element?.EnumValues)
+                            .map((prop) => {
+                        
+                              return `${prop.name}EnumItems={${prop.name}Enum}`;
+                            })}
+                                      ></Rds${convertToPascalCase(`${componentName}`)}>
+                                    </RdsOffcanvas>
+                                    }
+                            </div>
+
+                            <RdsCompDatatable
+                            classes="table__userTable"
+                            tableHeaders={tableHeaders}
+                            pagination={true}
+                            tableData={Data} // data
+                            actions={actions} // add action={[ add array of actions you require]} here to have action dropdown
+                            onActionSelection={onActionSelection}
+                            // add onActionSelction here for what function you want to call 
+                            recordsPerPage={10}
+                            recordsPerPageSelectListOption={true}
+                          ></RdsCompDatatable>
+
+                            <div class="offset-md-4 col-md-4 mt-3 col-12 position-absolute bottom-0 mb-3 position-lg-relative custom-responsive-alert"
+                                role="alert">
+                                {/* add alert here */}
+                                {Alert.show && (
+                                 <RdsAlert
+                                   alertmessage={Alert.message}
+                                   colorVariant={Alert.color}
+                                 ></RdsAlert>
+                               )}
+                            </div>
+
+                            {/* add edit offcanvas here  */}
+                            <RdsOffcanvas
+                              placement={"end"}
+                              backDrop={true}
+                              scrolling={false}
+                              preventEscapeKey={false}
+                              offId={"${sliceReducerName}Edit"}
+                              canvasTitle={"Edit"}
+                              offcanvaswidth={550}
+                            >
+                              <>
+                              <Rds${convertToPascalCase(`${componentName}`)}
+                                ${propInfoForGeneration.map((element) => {
+                
+                      if (element.format == "bool") {
+                        return `${element.name}${pageNameSingular}Prop = {dataEmit.${convertToCamelCase(`${element.name}`)} == "true" ?true:false}`
+                      } else {
+                        return `${element.name}${pageNameSingular}Prop = {dataEmit.${convertToCamelCase(`${element.name}`)}}`
+                      }
+                    }).join("\n")}
+                      
+                
+                
+                
+                
+                              offCanvasType={"update"}
+                              ${navConnectionsInfoForGeneration.map((info) => {
+                      return `${info.EntityName}SelectProp = {${info.EntityName}items}
+                      ${info.EntityName}SelectedItemsProp = {${info.EntityName}SelectedItems}`
+                    }).join("\n")}
+                              ${propInfoForGeneration
+                    .filter((element) => element?.EnumValues)
+                    .map((prop) => {
+                      return `${prop.name}EnumItems={${prop.name}Enum}`;
+                    })}
+                
+                    ${navPropInfoForGeneration.map((element) => element.DisplayName + `${element.EntityName}Prop={dataEmit.${convertToCamelCase(`${element.EntityName}${element.DisplayName}`)}} \n  ${element.DisplayName}${element.EntityName}ListProp={${element.DisplayName}List}`).join("\n  ")}
+                                onSaveHandler={onEdithandler}
+                                ></Rds${convertToPascalCase(`${componentName}`)}>
+                              </>
+                            </RdsOffcanvas>
+                            {/* add alert pop up here */}
+                            <RdsCompAlertPopup
+                              alertID={"${sliceReducerName}Del"}
+                              onSuccess={onDeleteHandler}
+                            ></RdsCompAlertPopup>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div className="row">
+                <div className="col-md-12">
+                    <div className="card px-4 py-4 border-0 rounded-0 card-full-stretch">
+                        <div class="mb-3 d-flex justify-content-end">
+                            {/* add new button here with offcanvas*/}
+                            {pagePermission.create &&
+                            <RdsOffcanvas offcanvasbutton={ <div>
+                                <RdsButton type={"button"} label={"New ${sliceReducerName}"} iconColorVariant="light"
+                                    size="small" colorVariant="primary" icon="plus" iconFill={false} iconStroke={true}
+                                    iconHeight="12px" iconWidth="12px">
+                                </RdsButton>
+                        </div>
+                        }
+                        placement={"end"}
+                        backDrop={true}
+                        scrolling={false}
+                        preventEscapeKey={false}
+                        offId={"new${sliceReducerName}"}
+                        canvasTitle={"New ${sliceReducerName}"}
+                        offcanvaswidth={550}
+                        >
+                        <Rds${convertToPascalCase(`${componentName}`)} ${propInfoForGeneration.map((element)=> {
+                            if (element.format == "bool") {
+                            return `${element.name}Prop = ${element.DefaultValue ? `{${element.DefaultValue}}` :
+                            "{false}"}`
+                            } else if (element.format == "string") {
+                            return `${element.name}Prop = ${element.DefaultValue ? `{"${element.DefaultValue}"}` :
+                            `{""}`}`
+                            } else if (element.format == "int") {
+                            return `${element.name}Prop = ${element.DefaultValue ? `{${element.DefaultValue}}` :
+                            `{""}`}`
+                            }
+                            else {
+                            return `${element.name}Prop = {""}`
+                            }
+                            }).join("\n")}
+                            onSaveHandler={onNewCreate}
+                            offCanvasType={"create"}
+                            ${propInfoForGeneration
+                            .filter((element) => element?.EnumValues)
+                            .map((prop) => {
+                            return `${prop.name}EnumItems={${prop.name}Enum}`;
+                            })}
+                            ></Rds${convertToPascalCase(`${componentName}`)}>
+                        </RdsOffcanvas>
+                        }
+                    </div>
+
+
+                    <RdsCompDatatable classes="table__userTable" tableHeaders={tableHeaders} pagination={true}
+                        tableData={Data} // data actions={actions} // add action={[ add array of actions you require]}
+                        here to have action dropdown onActionSelection={onActionSelection} // add onActionSelction here
+                        for what function you want to call recordsPerPage={10} recordsPerPageSelectListOption={true}>
+                    </RdsCompDatatable>
+
+                    <div class="offset-md-4 col-md-4 mt-3 col-12 position-absolute bottom-0 mb-3 position-lg-relative custom-responsive-alert"
+                        role="alert">
+                        {Alert.show && (
+                        <RdsAlert alertmessage={Alert.message} colorVariant={Alert.color}></RdsAlert>
+                        )}
+                    </div>
+                    {/* add edit offcanvas here */}
+                    <RdsOffcanvas placement={"end"} backDrop={true} scrolling={false} preventEscapeKey={false}
+                        offId={"${sliceReducerName}Edit"} canvasTitle={"Edit"} offcanvaswidth={550}>
+                        <>
+                            <Rds${convertToPascalCase(`${componentName}`)} ${propInfoForGeneration.map((element)=> {
+                                if (element.format == "bool") {
+                                return `${element.name}Prop = {dataEmit.${convertToCamelCase(`${element.name}`)} ==
+                                "true" ?true:false}`
+                                } else {
+                                return `${element.name}Prop = {dataEmit.${convertToCamelCase(`${element.name}`)}}`
+                                }
+                                }).join("\n")}
+                                offCanvasType={"update"}
+                                ${propInfoForGeneration
+                                .filter((element) => element?.EnumValues)
+                                .map((prop) => {
+                                return `${prop.name}EnumItems={${prop.name}Enum}`;
+                                })}
+                                onSaveHandler={onEdithandler}
+                                ></Rds${convertToPascalCase(`${componentName}`)}>
+                        </>
+                    </RdsOffcanvas>
+                    {/* add alert pop up here */}
+                    <RdsCompAlertPopup alertID={"${sliceReducerName}Del"} onSuccess={onDeleteHandler}>
+                    </RdsCompAlertPopup>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class=""> © 2023 WAi Technologies. All rights reserved. </span>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/comp-ele.js"></script>
+
+</body>
+
+</html>

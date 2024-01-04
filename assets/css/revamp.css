@@ -655,12 +655,12 @@ img.emp-img {
     bottom: 26px;
     left: 5%;
 }
-.char-anima .float-char img.maintenance-char {
+/* .char-anima .float-char img.maintenance-char {
     width: 140px;
      position: absolute;
     bottom: 40px;
     left: 23%;
-}
+} */
 .utopia-img {
     width: 100%;
 }
@@ -1416,12 +1416,12 @@ p.link-name{
             bottom: 126px;
             left: 30%;
         }
-        .char-anima .float-char img.maintenance-char {
+        /* .char-anima .float-char img.maintenance-char {
             width: 220px;
             position: absolute;
             bottom: 166px;
             left: 35%;
-        } 
+        }  */
         .utopia-img {
             width: 75%;
         }
@@ -1449,11 +1449,11 @@ p.link-name{
             bottom: 126px;
             left: 30%;
         }
-        .char-anima .float-char img.maintenance-char {
+        /* .char-anima .float-char img.maintenance-char {
             width: 220px;
             position: absolute;
             bottom: 166px;
-            left: 35%;
+            left: 35%; */
         } 
         .utopia-img {
             width: 75%;

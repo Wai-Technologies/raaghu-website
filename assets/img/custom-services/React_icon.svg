@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="50.735" viewBox="0 0 48 50.735">
+  <g id="React_Icon" data-name="React Icon" transform="translate(12 13.166)">
+    <ellipse id="Ellipse_10583" data-name="Ellipse 10583" cx="4.286" cy="4.202" rx="4.286" ry="4.202" transform="translate(7.714 8)" fill="#fff"/>
+    <g id="Group_196212" data-name="Group 196212" transform="translate(-11 -11.798)">
+      <ellipse id="Ellipse_10584" data-name="Ellipse 10584" cx="23" cy="8.609" rx="23" ry="8.609" transform="translate(0 15.391)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="Path_203256" data-name="Path 203256" d="M22.729,0C35.242-.1,45.354,3.721,45.315,8.543S35.1,17.358,22.585,17.462-.04,13.741,0,8.919,10.215.1,22.729,0Z" transform="translate(19.233 0.013) rotate(60)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="Path_203257" data-name="Path 203257" d="M22.592,0c12.517.1,22.7,4.1,22.735,8.935S35.253,17.6,22.736,17.5.041,13.392,0,8.562,10.076-.1,22.592,0Z" transform="translate(41.91 8.747) rotate(120)" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
