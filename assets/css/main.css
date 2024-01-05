@@ -2120,7 +2120,7 @@ p.link-name {
     border-radius: 24px;
 }
 
-.character img{
+.character img {
     position: absolute;
     top: 35em;
     width: 30%;
@@ -2143,10 +2143,12 @@ p.link-name {
     .bg-arrow img {
         right: 412px;
     }
+
     .character img {
         right: -3em;
         top: 38em;
     }
+
     .custom-radio .radio:checked::after {
         left: 2px;
     }
@@ -2163,9 +2165,11 @@ p.link-name {
     .bg-arrow img {
         right: 345px;
     }
+
     .custom-radio .radio:checked::after {
         left: 2px;
     }
+
     .c-mb-7 {
         margin-bottom: 5rem;
     }
@@ -2180,9 +2184,11 @@ p.link-name {
         top: 276px;
         transform: rotate(90deg);
     }
+
     .custom-radio .radio:checked::after {
         left: 2px;
     }
+
     .c-mb-7 {
         margin-bottom: 5rem;
     }
@@ -2192,17 +2198,24 @@ p.link-name {
     .w-37 {
         width: 100%;
     }
+
     .mw-75 {
         max-width: 90%;
     }
+
     .custom-gradient-shadow:hover {
         max-width: 90%;
     }
+
     .c-mb-7 {
         margin-bottom: 4rem;
     }
+
     .bg-arrow img {
         display: none;
+    }
+    .c-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
     }
 }
 
@@ -2211,26 +2224,59 @@ p.link-name {
         max-width: 68%;
         transition: 0.50s;
     }
+
     .custom-gradient-shadow:hover {
         max-width: 70%;
         transition: 0.50s;
     }
 }
 
-@media screen and (min-width:2560px){
+@media screen and (min-width:2560px) {
     .mw-75 {
         max-width: 50%;
         transition: 0.50s;
     }
+
     .custom-gradient-shadow:hover {
         max-width: 52%;
         transition: 0.50s;
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
-        display: block!important;
+        display: block !important;
         flex-basis: auto;
     }
+}
+
+.tickmark {
+    width: 25px;
+    height: 20px;
+}
+
+.c-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+}
+
+.associated-logos img {
+    max-width: 100%;
+    width: 180px;
+    object-fit: contain;
+    aspect-ratio: 2/1;
+    padding: 13px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.associated-logos {
+    background: #222222 0% 0% no-repeat padding-box;
+    box-shadow: inset 2px 2px 2px #706E6E, 0px 6px 8px #D9D9D914;
+    border: 1px solid #706E6E;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 8px 5px;
 }
