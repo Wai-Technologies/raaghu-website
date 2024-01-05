@@ -1837,13 +1837,14 @@
                         </div>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-12">
-                        <form class="">
+                        <form name="assistance" method="POST" data-netlify="true" netlify-honeypot="bot-field" action='thankyou.html'>
+                            <input type="hidden" name="Raaghu-Assistance-Form" value="assistance">
                             <div class="position-relative">
                                 <div class="input-group mb-md-0 mb-3">
                                     <input type="email" class="assistance-input form-control lh-lg py-2" required
                                         placeholder="Email ID" aria-label="email id" aria-describedby="basic-addon1">
                                 </div>
-                                <a href=""
+                                <button type="submit"
                                     class="btn btn-primary btn-sm position-absolute position-sm-relative assistance-btn">
                                     <div class="">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -1853,7 +1854,7 @@
                                         </svg>
                                         <span> GET RAAGHU ASSISTANCE</span>
                                     </div>
-                                </a>
+                                </button>
                             </div>
                         </form>
                     </div>
