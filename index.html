@@ -2142,7 +2142,7 @@
                                         <div class="mb-3 form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                             <label class="form-check-label" for="exampleCheck1">I agree to the <a
-                                                    href="#"> terms & privacy policy </a></label>
+                                                    href="/Terms&conditions.html"> terms & privacy policy </a></label>
                                         </div>
                                         <button type="button" data-bs-dismiss="modal" aria-label="Close"
                                             class="btn btn-primary btn-sm btn-block">Submit</button>
@@ -2192,7 +2192,7 @@
                                     <small> Unlock Possibilities: Step into Our Demo, Where Ideas Come to Life! </small>
                                 </p>
                                 <div>
-                                    <form name="viewDemo" method="POST" id="view-demo" netlify>
+                                    <form id="view-demo" method="POST" data-netlify="true" onSubmit="submit" netlify-honeypot="bot-field" action='Thank-you.html'>
                                         <input type="hidden" name="form-name" value="viewDemo">
                                         <div class="mb-3 form-group">
                                             <label for="fname" class="form-label">Full Name
@@ -2209,8 +2209,13 @@
                                                 placeholder="Enter Email" name="email"
                                                 id="vEmail">
                                         </div>
+                                        <div className="hidden d-none">
+                                            <label class="d-none">
+                                            Don't fill this out if you're human: <indivut name="bot-field" />
+                                            </label>
+                                        </div>
                                         <div class="pt-3">
-                                            <button type="button" data-bs-dismiss="modal" aria-label="Close"
+                                            <button type="submit" data-bs-dismiss="modal" aria-label="Close"
                                             class="btn btn-primary btn-sm btn-block">Submit</button>
                                         </div>
                                     </form>

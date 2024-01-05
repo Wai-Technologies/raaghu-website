@@ -559,26 +559,25 @@
 
         <!-- =============================== contact us ======================================== -->
         <!-- Modal -->
-        <div class="modal fade" id="contactusModal" tabindex="-1" aria-labelledby="contactusModalLabel"
-            aria-hidden="true">
+        <div class="modal fade" id="contactusModal" tabindex="-1" aria-labelledby="contactusModalLabel" aria-hidden="true">
             <div class="modal-dialog contact-modal modal-lg modal-dialog-centered">
                 <div class="modal-content">
                     <!-- <div class="modal-header">
-                <h5 class="modal-title" id="contactusModalLabel">Modal title</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div> -->
+                    <h5 class="modal-title" id="contactusModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div> -->
                     <div class="modal-body p-0">
-
+    
                         <div class="row">
                             <div class="col-md-6 col-sm-12 bg-dark d-md-block d-none">
                                 <div class="mt-5">
                                     <img src="assets/img/raaghu-logo-white.png" class="img-fluid w-25 pl-2"
                                         alt="Raaghu Logo">
-
+    
                                     <img src="assets/img/contactus_banner.png" class="img-fluid" alt="Contact us Image">
                                 </div>
                             </div>
-
+    
                             <div class="col-md-6 col-sm-12">
                                 <div class="row">
                                     <div class="col-md-12 text-end pull-right">
@@ -594,7 +593,8 @@
                                         <small> We will get back to you within 48 hours </small>
                                     </p>
                                     <div>
-                                        <form method="post" id="want-to-hear-form">
+                                        <form name="contact" method="POST" data-netlify="true" id="want-to-hear-form">
+                                            <input type="hidden" name="form-name" value="contact">
                                             <div class="mb-3 form-group">
                                                 <label for="emailId" class="form-label">Email ID
                                                     <span class="text-danger">*</span>
@@ -620,7 +620,7 @@
                                             <div class="mb-3 form-check">
                                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                                 <label class="form-check-label" for="exampleCheck1">I agree to the <a
-                                                        href="#"> terms & privacy policy </a></label>
+                                                        href="/Terms&conditions.html"> terms & privacy policy </a></label>
                                             </div>
                                             <button type="button" data-bs-dismiss="modal" aria-label="Close"
                                                 class="btn btn-primary btn-sm btn-block">Submit</button>
