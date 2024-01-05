@@ -2192,8 +2192,8 @@
                                     <small> Unlock Possibilities: Step into Our Demo, Where Ideas Come to Life! </small>
                                 </p>
                                 <div>
-                                    <form id="view-demo" method="POST" data-netlify="true" onSubmit="submit" netlify-honeypot="bot-field" action='/Thank-you.html'>
-                                        <input type="hidden" name="form-name" value="viewDemo">
+                                    <form id="view-demo" name="viewdemo-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" action='thankyou.html'>
+                                        <input type="hidden" name="contact-form" value="viewdemo-form">
                                         <div class="mb-3 form-group">
                                             <label for="fname" class="form-label">Full Name
                                                 <span class="text-danger">*</span>
@@ -2215,8 +2215,7 @@
                                             </label>
                                         </div>
                                         <div class="pt-3">
-                                            <button type="submit" data-bs-dismiss="modal" aria-label="Close"
-                                            class="btn btn-primary btn-sm btn-block">Submit</button>
+                                            <button type="submit" class="btn btn-primary btn-sm btn-block">Submit</button>
                                         </div>
                                     </form>
                                 </div>
@@ -2237,6 +2236,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.js'></script>
 
     <!-- cuatom js -->
+    <script src="assets/js/jquery.js"></script>
     <script src="assets/js/revamp-script.js"></script>
 
     <!-- bootstrap js -->
